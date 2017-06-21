@@ -1,5 +1,5 @@
 # Summary
 
 * [Введение](README.md)
-* [First Chapter](chapter1.md)
+* [Глава 1: Введение в расширения Google Chrome](chapter1.md)
 
