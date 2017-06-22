@@ -7,8 +7,7 @@
 Принцип создания приложения для Chrome схож с разработкой расширения. Если вы желаете узнать больше о Google Chrome Apps, то можете посетить следующие веб-страницы:
 
 * [https://en.wikipedia.org/wiki/Google\_Chrome\_Apps](https://en.wikipedia.org/wiki/Google_Chrome_Apps)
-* \[[https://developer.chrome.com/apps/about\_apps](https://developer.chrome.com/apps/about_apps)
-  \]\([https://developer.chrome.com/apps/about\_apps](https://developer.chrome.com/apps/about_apps)\)
+* [https://developer.chrome.com/apps/about\_apps](https://developer.chrome.com/apps/about_apps)
 * [http://stackoverflow.com/questions/tagged/google-chrome-app](http://stackoverflow.com/questions/tagged/google-chrome-app)
 
 
