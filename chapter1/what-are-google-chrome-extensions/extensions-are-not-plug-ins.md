@@ -4,7 +4,7 @@
 
 Также существует ещё один тип веб-приложения известны как Google Chrome Apps. Это что-то среднее между расширением Chrome и плагином браузера.
 
-Принцип создания приложения для Chrome схож с разработкой расширения. Если ты хочешь узнать больше о Google Chrome Apps, вы можете посетить следующие веб-страницы:
+Принцип создания приложения для Chrome схож с разработкой расширения. Если вы желаете узнать больше о Google Chrome Apps, то можете посетить следующие веб-страницы:
 
 * [https://en.wikipedia.org/wiki/Google\_Chrome\_Apps](https://en.wikipedia.org/wiki/Google_Chrome_Apps)
 * \[[https://developer.chrome.com/apps/about\_apps](https://developer.chrome.com/apps/about_apps)
