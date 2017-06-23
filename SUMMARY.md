@@ -7,4 +7,5 @@
     * [Расширения не являются плагинами](chapter1/what-are-google-chrome-extensions/extensions-are-not-plug-ins.md)
     * [Расширения и плагины](chapter1/what-are-google-chrome-extensions/extensions-and-plug-ins.md)
   * [Популярность расширений](chapter1/notable-examples.md)
+  * [Adding Extensions from the Store](chapter1/adding-extensions-from-the-store.md)
 
