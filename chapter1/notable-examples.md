@@ -15,8 +15,8 @@
 * Photo Zoom для Facebook – 800 000 + пользователей
 * Pin It Button - 10 000 000 + пользователей
 
-> **Примечание:**
-> Чтобы просмотреть больше расширения, перейдите в магазин Chrome по адресу https://chrome.google.com/webstore/category/extensions.
+> **Примечание:**  
+> Чтобы просмотреть больше расширения, перейдите в магазин Chrome по адресу [https://chrome.google.com/webstore/category/extensions](https://chrome.google.com/webstore/category/extensions).
 
 
 
