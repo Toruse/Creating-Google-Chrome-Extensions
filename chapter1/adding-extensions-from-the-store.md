@@ -23,5 +23,9 @@
 > **Примечание:**  
 > По аналогии с адресом chrome-extensions-url \(`chrome://extensions`\), есть другие полезные URL-адреса, которые позволяют получить дополнительною информацию о браузере Chrome. Получить полный список этих URL-адресов можно по адресу `chrome://chrome-urls`, как показано на Рисунке 1-7.
 
+![Рисунок 1-7. URL-адреса Chrome: chrome://chrome-urls](/assets/figure-1-7.png)
+
+##### Рисунок 1-7. _URL-адреса Chrome: chrome://chrome-urls_
+
 
 
