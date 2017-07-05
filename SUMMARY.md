@@ -9,4 +9,5 @@
   * [Популярность расширений](chapter1/notable-examples.md)
   * [Добавление расширений из магазина](chapter1/adding-extensions-from-the-store.md)
   * [Технологии для создания расширений](chapter1/technologies-to-create-extensions.md)
+    * [Что для чего используется?](chapter1/technologies-to-create-extensions/how-are-technologies-used.md)
 
