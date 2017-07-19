@@ -11,5 +11,7 @@
 
 Для начала, нужно создать папку со следующими файлами: popup.html, popup\_script.js, icon.png, и manifest.json \(Рисунок 1-9\).
 
+![](/assets/figure-1-9.png)
+
 
 
