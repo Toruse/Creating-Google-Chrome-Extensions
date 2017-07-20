@@ -12,5 +12,5 @@
     * [Что для чего используется?](chapter1/technologies-to-create-extensions/how-are-technologies-used.md)
   * [API расширения](chapter1/extensions-api.md)
   * [Пишем первое расширение](chapter1/creating-your-first-extension.md)
-    * [Validating a JSON File](chapter1/creating-your-first-extension/validating-a-json-file.md)
+    * [Правильный JSON](chapter1/creating-your-first-extension/validating-a-json-file.md)
 
