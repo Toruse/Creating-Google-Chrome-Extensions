@@ -6,37 +6,20 @@
 
 ##### Листинг 1-1. _ShowTime/manifest.json._
 
-{
-
-	"manifest\_version" : 2,
-
-	"name" : "ShowTime",
-
-	"description" : "Extension to show the current time and date",
-
-	"version" : "1.2",
-
-	"browser\_action": {
-
-		"default\_title" : "ShowTime",
-
-		"default\_icon" : "icon.png",
-
-		"default\_popup" : "popup.html"
-
-	},
-
-	"icons" : {
-
-		"16" : "icon16.png",
-
-		"48" : "icon48.png",
-
-		"128" : "icon128.png"
-
-	}
-
-}
-
-
+`{    
+    "manifest_version" : 2,    
+    "name" : "ShowTime",    
+    "description" : "Расширения для вывода текущего времени и даты",    
+    "version" : "1.2",    
+    "browser_action": {    
+        "default_title" : "ShowTime",    
+        "default_icon" : "icon.png",    
+        "default_popup" : "popup.html"    
+    },    
+    "icons" : {    
+        "16" : "icon16.png",    
+        "48" : "icon48.png",    
+        "128" : "icon128.png"    
+    }    
+}`
 
