@@ -14,5 +14,5 @@
   * [Пишем первое расширение](chapter1/creating-your-first-extension.md)
     * [Правильный JSON](chapter1/creating-your-first-extension/validating-a-json-file.md)
     * [Создание манифеста](chapter1/creating-your-first-extension/creating-the-manifest.md)
-    * [Adding the Button: Browser-Action](chapter1/creating-your-first-extension/adding-the-button-browser-action.md)
+    * [Добавляем кнопку](chapter1/creating-your-first-extension/adding-the-button-browser-action.md)
 
