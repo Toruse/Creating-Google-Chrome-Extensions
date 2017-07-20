@@ -13,5 +13,5 @@
   * [API расширения](chapter1/extensions-api.md)
   * [Пишем первое расширение](chapter1/creating-your-first-extension.md)
     * [Правильный JSON](chapter1/creating-your-first-extension/validating-a-json-file.md)
-    * [Creating the Manifest](chapter1/creating-your-first-extension/creating-the-manifest.md)
+    * [Создание манифеста](chapter1/creating-your-first-extension/creating-the-manifest.md)
 
