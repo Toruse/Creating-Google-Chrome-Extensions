@@ -6,20 +6,22 @@
 
 ##### Листинг 1-1. _ShowTime/manifest.json._
 
-`{    
-    "manifest_version" : 2,    
-    "name" : "ShowTime",    
-    "description" : "Расширения для вывода текущего времени и даты",    
-    "version" : "1.2",    
-    "browser_action": {    
-        "default_title" : "ShowTime",    
-        "default_icon" : "icon.png",    
-        "default_popup" : "popup.html"    
-    },    
-    "icons" : {    
-        "16" : "icon16.png",    
-        "48" : "icon48.png",    
-        "128" : "icon128.png"    
-    }    
+`{      
+    "manifest_version" : 2,      
+    "name" : "ShowTime",      
+    "description" : "Расширения для вывода текущего времени и даты",      
+    "version" : "1.2",      
+    "browser_action": {      
+        "default_title" : "ShowTime",      
+        "default_icon" : "icon.png", //Указывается иконка для кнопки на панели инструментов Chrome  
+        "default_popup" : "popup.html"      
+    },      
+    "icons" : {      
+        "16" : "icon16.png", //Указывается иконка для страницы управления расширением.  
+        "48" : "icon48.png", //Указывается иконка для страницы управления расширениями.  
+        "128" : "icon128.png" //Указывается иконка для процедуры установки и для интернет-магазина Chrome.  
+    }      
 }`
+
+
 
