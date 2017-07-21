@@ -12,4 +12,7 @@
     * [Что для чего используется?](chapter1/technologies-to-create-extensions/how-are-technologies-used.md)
   * [API расширения](chapter1/extensions-api.md)
   * [Пишем первое расширение](chapter1/creating-your-first-extension.md)
+    * [Правильный JSON](chapter1/creating-your-first-extension/validating-a-json-file.md)
+    * [Создание манифеста](chapter1/creating-your-first-extension/creating-the-manifest.md)
+    * [Добавляем кнопку: Browser-Action](chapter1/creating-your-first-extension/adding-the-button-browser-action.md)
 
