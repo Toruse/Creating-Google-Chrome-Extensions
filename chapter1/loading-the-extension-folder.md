@@ -1,4 +1,6 @@
-## Loading the Extension Folder
+## Загрузка расширения из папки
+
+
 
 
 
