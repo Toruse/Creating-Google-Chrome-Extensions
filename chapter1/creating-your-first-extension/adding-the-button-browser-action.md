@@ -67,3 +67,68 @@
 
 Листинг 1-3 содержит продолжение код JavaScript, где на документ вешается событие DOMContentLoaded, которое вызывается после загрузки страницы, и соответственно в нем получаем доступ к элементам DOM, и вызывается setTimeAndDate.
 
+**Листинг 1-4. **_**ShowTime/popup.html**_
+
+```
+    <!DOCTYPE html>
+    <html>
+    <head>
+
+    <!-- The following tag is not obeyed -->
+
+    <title>ShowTime (Custom)</title>
+
+    <!--
+    <script>
+    // Inline scripts are not allowed
+    alert('Hello World');
+    </script>
+    -->
+
+    <!-- Referring scripts is allowed -->
+
+    <script src="popup_script.js"></script>
+
+    <style>
+    body {
+        padding:0px;
+        margin:0px;
+        width:300px;
+        height:200px;
+    }
+    div {
+        height:100%;
+        width:100%;
+        display:table;
+        font-family:"Tahoma","Verdana";
+        font-size:15px;
+        font-weight:bold;
+        text-shadow:0px 0px 1px #000000;
+        background-color:#555;
+        color:#fff;
+    }
+    h1,h2 {
+        display:table-row;
+        vertical-align:middle;
+        text-align:center;
+    }
+    h2 {
+        background-color:#777;
+    }
+    .unselectable {
+        -webkit-user-select:none;
+        cursor:default;
+    }
+    </style>
+    </head>
+    <body>
+        <div class="unselectable">
+            <h1 class="empty"></h1>
+            <h1 id="time"></h1>
+            <h2 id="date"></h2>
+        </div>
+    </body>
+    </html>
+```
+
+
