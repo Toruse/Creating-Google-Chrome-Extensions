@@ -6,9 +6,9 @@
 
 ##### Листинг 1-1. _ShowTime/manifest.json._
 
-`{                      
-    "manifest_version" : 2,                      
-    "name" : "ShowTime",                      
+`{`                      
+    `"manifest_version" : 2,`
+    `"name" : "ShowTime",                      
     "description" : "Расширения для вывода текущего времени и даты",                      
     "version" : "1.2",                      
     "browser_action": {                      
