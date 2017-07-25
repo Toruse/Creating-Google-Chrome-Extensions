@@ -74,19 +74,17 @@
     <html>
     <head>
 
-    <!-- The following tag is not obeyed -->
-
+    <!-- Следующий тег не выполниться -->
     <title>ShowTime (Custom)</title>
 
     <!--
     <script>
-    // Inline scripts are not allowed
+    // Следующий скрипт не выдаст предупреждение
     alert('Hello World');
     </script>
     -->
 
-    <!-- Referring scripts is allowed -->
-
+    <!-- Подключаем js-скрипт -->
     <script src="popup_script.js"></script>
 
     <style>
@@ -130,5 +128,6 @@
     </body>
     </html>
 ```
+
 
 
