@@ -17,4 +17,5 @@
     * [Добавляем кнопку: Browser-Action](chapter1/creating-your-first-extension/adding-the-button-browser-action.md)
   * [Загрузка расширения из папки](chapter1/loading-the-extension-folder.md)
   * [Отладка расширения](chapter1/debugging-an-extension.md)
+    * [Inspecting the Popup](chapter1/debugging-an-extension/inspecting-the-popup.md)
 
