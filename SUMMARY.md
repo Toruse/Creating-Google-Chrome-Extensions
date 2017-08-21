@@ -16,4 +16,5 @@
     * [Создание манифеста](chapter1/creating-your-first-extension/creating-the-manifest.md)
     * [Добавляем кнопку: Browser-Action](chapter1/creating-your-first-extension/adding-the-button-browser-action.md)
   * [Загрузка расширения из папки](chapter1/loading-the-extension-folder.md)
+  * [Отладка расширения](chapter1/debugging-an-extension.md)
 
