@@ -1,4 +1,4 @@
-### Console Panel
+### Панель Console
 
 
 

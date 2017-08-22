@@ -19,5 +19,5 @@
   * [Отладка расширения](chapter1/debugging-an-extension.md)
     * [Исследование Popup](chapter1/debugging-an-extension/inspecting-the-popup.md)
     * [Панели Sources и Application](chapter1/debugging-an-extension/sources-and-resources-panel.md)
-    * [Console Panel](chapter1/debugging-an-extension/console-panel.md)
+    * [Панель Console](chapter1/debugging-an-extension/console-panel.md)
 
