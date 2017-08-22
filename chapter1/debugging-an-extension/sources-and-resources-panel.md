@@ -1,4 +1,4 @@
-### Sources and Resources Panel
+### Панели Sources и Resources
 
 
 

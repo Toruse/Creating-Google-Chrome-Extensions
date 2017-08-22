@@ -18,5 +18,5 @@
   * [Загрузка расширения из папки](chapter1/loading-the-extension-folder.md)
   * [Отладка расширения](chapter1/debugging-an-extension.md)
     * [Исследование Popup](chapter1/debugging-an-extension/inspecting-the-popup.md)
-    * [Sources and Resources Panel](chapter1/debugging-an-extension/sources-and-resources-panel.md)
+    * [Панели Sources и Resources](chapter1/debugging-an-extension/sources-and-resources-panel.md)
 
