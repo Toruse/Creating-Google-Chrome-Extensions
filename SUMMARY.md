@@ -22,5 +22,5 @@
     * [Панель Console](chapter1/debugging-an-extension/console-panel.md)
   * [Резюме](chapter1/summary.md)
 * [Глава 2: Обзор архитектуры](chapter-2-architecture-overview.md)
-  * [Компоненты, задействованные в создании расширения](chapter-2-architecture-overview/components-involved-in-creating-chrome-extensions.md)
+  * [Компоненты, используемые для создания расширения](chapter-2-architecture-overview/components-involved-in-creating-chrome-extensions.md)
 
