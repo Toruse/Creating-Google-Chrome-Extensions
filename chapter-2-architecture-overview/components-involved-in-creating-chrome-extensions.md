@@ -1,4 +1,4 @@
-## Components Involved in Creating Chrome Extensions
+## Компоненты, задействованные в создании расширения
 
 
 
