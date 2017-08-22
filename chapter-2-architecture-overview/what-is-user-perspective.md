@@ -1,4 +1,0 @@
-## What Is User Perspective?
-
-
-
