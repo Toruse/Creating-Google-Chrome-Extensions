@@ -21,4 +21,5 @@
     * [Панели Sources и Application](chapter1/debugging-an-extension/sources-and-resources-panel.md)
     * [Панель Console](chapter1/debugging-an-extension/console-panel.md)
   * [Резюме](chapter1/summary.md)
+* [Глава 2: Обзор архитектуры](chapter-2-architecture-overview.md)
 
