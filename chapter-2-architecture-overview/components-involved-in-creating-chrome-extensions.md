@@ -39,5 +39,30 @@
 
 ##### Рисунок 2-4. _Инспектирование Popup: панель Console._
 
+* * Popup сценарии имеют доступ к API расширения Chrome, стандартному JavaScript API, и к API-событий, которое позволяет прослушивать и реагировать на события DOM всплывающего окна.
+
+##### Листинг 2-1. _Глава 2 /HelloBrowserAction/popup.html._
+
+```
+<head>
+
+    <!-- The following tag is not obeyed -->
+    <title>HelloBrowserAction (Custom)</title>
+
+    <!--
+    <script>
+        // Inline scripts are not allowed
+        alert('Hello World');
+    </script>
+    -->
+
+    <!-- Referring scripts is allowed -->
+    <script src="popup_script.js"></script>
+    <script src="another_popup_script.js"></script>
+
+    <style>
+...
+```
+
 
 
