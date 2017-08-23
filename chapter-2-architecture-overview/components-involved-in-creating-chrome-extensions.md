@@ -46,17 +46,17 @@
 ```
 <head>
 
-    <!-- The following tag is not obeyed -->
+    <!-- Следующий тег будет проигнорирован -->
     <title>HelloBrowserAction (Custom)</title>
 
     <!--
     <script>
-        // Inline scripts are not allowed
+        // Данное предупреждение не будет показано
         alert('Hello World');
     </script>
     -->
 
-    <!-- Referring scripts is allowed -->
+    <!-- Правильный способ подключения сценариев -->
     <script src="popup_script.js"></script>
     <script src="another_popup_script.js"></script>
 
