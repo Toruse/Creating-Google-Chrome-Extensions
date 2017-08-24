@@ -1,6 +1,4 @@
-### Scripts Representing the Runtime
-
-
+### Роль сценариев вовремя процесса
 
 
 
