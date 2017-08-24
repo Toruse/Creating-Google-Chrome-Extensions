@@ -23,5 +23,5 @@
   * [Резюме](chapter1/summary.md)
 * [Глава 2: Обзор архитектуры](chapter-2-architecture-overview.md)
   * [Компоненты, используемые для создания расширения](chapter-2-architecture-overview/components-involved-in-creating-chrome-extensions.md)
-  * [Extension Runtime](chapter-2-architecture-overview/extension-runtime.md)
+  * [Расширение в процессе](chapter-2-architecture-overview/extension-runtime.md)
 
