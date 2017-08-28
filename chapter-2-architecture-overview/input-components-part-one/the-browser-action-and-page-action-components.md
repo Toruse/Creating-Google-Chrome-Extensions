@@ -1,4 +1,4 @@
-### The Browser-Action and Page-Action Components
+### Компоненты Browser-Action и Page-Action
 
 
 

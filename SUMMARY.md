@@ -26,5 +26,5 @@
   * [Расширение в процессе](chapter-2-architecture-overview/extension-runtime.md)
     * [Роль сценариев вовремя процесса](chapter-2-architecture-overview/extension-runtime/scripts-representing-the-runtime.md)
   * [Input компоненты: Часть первая](chapter-2-architecture-overview/input-components-part-one.md)
-    * [The Browser-Action and Page-Action Components](chapter-2-architecture-overview/input-components-part-one/the-browser-action-and-page-action-components.md)
+    * [Компоненты Browser-Action и Page-Action](chapter-2-architecture-overview/input-components-part-one/the-browser-action-and-page-action-components.md)
 
