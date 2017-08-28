@@ -25,5 +25,5 @@
   * [Компоненты, используемые для создания расширения](chapter-2-architecture-overview/components-involved-in-creating-chrome-extensions.md)
   * [Расширение в процессе](chapter-2-architecture-overview/extension-runtime.md)
     * [Роль сценариев вовремя процесса](chapter-2-architecture-overview/extension-runtime/scripts-representing-the-runtime.md)
-  * [Input Components: Part One](chapter-2-architecture-overview/input-components-part-one.md)
+  * [Input компоненты: Часть первая](chapter-2-architecture-overview/input-components-part-one.md)
 
