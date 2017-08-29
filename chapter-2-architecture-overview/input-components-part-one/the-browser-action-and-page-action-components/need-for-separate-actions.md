@@ -1,4 +1,4 @@
-#### Need for Separate Actions
+#### Различия в Browser-Action и Page-Action
 
 
 
