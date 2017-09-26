@@ -1,4 +1,4 @@
-#### Role of the Manifest for This ComponentRole of the Manifest for This Component
+#### Role of the Manifest for This Component
 
 
 
