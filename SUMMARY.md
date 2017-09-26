@@ -28,4 +28,5 @@
   * [Input компоненты: Часть первая](chapter-2-architecture-overview/input-components-part-one.md)
     * [Компоненты Browser-Action и Page-Action](chapter-2-architecture-overview/input-components-part-one/the-browser-action-and-page-action-components.md)
       * [Различия в Browser-Action и Page-Action](chapter-2-architecture-overview/input-components-part-one/the-browser-action-and-page-action-components/need-for-separate-actions.md)
+      * [Role of the Manifest for This Component](chapter-2-architecture-overview/input-components-part-one/the-browser-action-and-page-action-components/role-of-the-manifest-for-this-component.md)
 
