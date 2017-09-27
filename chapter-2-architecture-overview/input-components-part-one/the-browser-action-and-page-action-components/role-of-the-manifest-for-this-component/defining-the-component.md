@@ -1,4 +1,4 @@
-##### Defining the Component
+##### Определение компонента
 
 
 
