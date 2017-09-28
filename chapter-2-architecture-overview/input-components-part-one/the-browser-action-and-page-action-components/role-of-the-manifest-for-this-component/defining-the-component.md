@@ -10,5 +10,13 @@
 
 Так же атрибуты, указываемые в манифесте для Browser-Action и Page-Action, можно переопределить. Список соответствующих методы указаны в таблице 2-1 и таблице 2-2.
 
+##### Таблица 2-1. _Методы для работы с атрибутами Page-Action._
+
+| Метод | Описание |
+| :--- | :--- |
+| chrome.pageAction.setTitle\(object details\) |  |
+| chrome.pageAction.setIcon\(object details, function callback\) |  |
+| chrome.pageAction.setPopup\(object details\) |  |
+
 
 
