@@ -15,8 +15,16 @@
 | Метод | Описание |
 | :--- | :--- |
 | chrome.pageAction.setTitle\(object details\) | Принимает объект со свойствами `tabId` \(целое число\) идентификатор вкладки для которой нужно изменить заголовок `title`. |
-| chrome.pageAction.setIcon\(object details, function callback\) |  |
-| chrome.pageAction.setPopup\(object details\) |  |
+| chrome.pageAction.setIcon\(object details, function callback\) | Принимает объект со свойствами `tabId` и `path` в котором указывается относительный путь к файлу с изображением. Второй параметр необязательный и является callback функцией. |
+| chrome.pageAction.setPopup\(object details\) | Принимает объект со свойствами `tabId` и `popup` в котором указывается HTML-файл со всплывающим окном. Если указана пустая строка, то окно не покажется. |
+
+##### Таблица 2-2. _Методы для работы с атрибутами Browser-Action._
+
+| Метод | Описание |
+| :--- | :--- |
+| chrome.browserAction.setTitle\(object details\) | Принимает объект со свойствами `tabId` \(целое число\) идентификатор вкладки для которой нужно изменить заголовок `title`. Подсказка сбрасывается, когда вкладка закрывается. |
+| chrome.browserAction.setIcon\(object details, function callback\) | Принимает объект со свойствами `tabId` и `path` в котором указывается относительный путь к файлу с изображением. Второй параметр необязательный и является callback функцией. Иконка сбрасывается, когда закрывается вкладка. |
+| chrome.browserAction.setPopup\(object details\) | Принимает объект со свойствами `tabId` и `popup` в котором указывается HTML-файл со всплывающим окном. Если указана пустая строка, то окно не покажется. Popup сбрасывается после закрытия вкладки. |
 
 
 
