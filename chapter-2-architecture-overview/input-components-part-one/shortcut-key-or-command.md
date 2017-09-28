@@ -1,4 +1,4 @@
-### Shortcut Key or Command
+### Клавиши быстрого доступа
 
 
 
