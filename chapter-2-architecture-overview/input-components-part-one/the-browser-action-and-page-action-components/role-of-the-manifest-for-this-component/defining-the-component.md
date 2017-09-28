@@ -14,7 +14,7 @@
 
 | Метод | Описание |
 | :--- | :--- |
-| chrome.pageAction.setTitle\(object details\) |  |
+| chrome.pageAction.setTitle\(object details\) | Принимает объект со свойствами `tabId` \(целое число\) идентификатор вкладки для которой нужно изменить заголовок `title`. |
 | chrome.pageAction.setIcon\(object details, function callback\) |  |
 | chrome.pageAction.setPopup\(object details\) |  |
 
