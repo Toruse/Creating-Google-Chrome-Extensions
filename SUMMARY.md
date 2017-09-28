@@ -30,4 +30,5 @@
       * [Различия в Browser-Action и Page-Action](chapter-2-architecture-overview/input-components-part-one/the-browser-action-and-page-action-components/need-for-separate-actions.md)
       * [Роль манифеста](chapter-2-architecture-overview/input-components-part-one/the-browser-action-and-page-action-components/role-of-the-manifest-for-this-component.md)
         * [Определение компонента](chapter-2-architecture-overview/input-components-part-one/the-browser-action-and-page-action-components/role-of-the-manifest-for-this-component/defining-the-component.md)
+      * [Component Usage](chapter-2-architecture-overview/input-components-part-one/the-browser-action-and-page-action-components/component-usage.md)
 
