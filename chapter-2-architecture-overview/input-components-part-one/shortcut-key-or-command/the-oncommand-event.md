@@ -1,4 +1,4 @@
-#### The onCommand Event
+#### Событие onCommand
 
 
 
