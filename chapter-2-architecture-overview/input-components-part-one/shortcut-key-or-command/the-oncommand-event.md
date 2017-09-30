@@ -23,5 +23,9 @@ chrome.commands.onCommand.addListener(function(command) {
 
 В листинге 2-4 и 2-5 наведён пример кода из расширения HelloShortcutKey. Данное расширение для Browser-Action устанавливает иконку, загруженную из файла icon-1.png. С помощью слушателя onCommand и метода  chrome.browserAction.setIcon происходит замена иконки на icon-2.png \(Рисунок 2-9\).
 
+![Рисунок 2-9. Файлы расширения HelloShortcutKey](/assets/figure-2-9.png)
+
+##### Рисунок 2-9. _Файлы расширения HelloShortcutKey._
+
 
 
