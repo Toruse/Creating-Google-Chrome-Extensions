@@ -32,4 +32,5 @@
         * [Определение компонента](chapter-2-architecture-overview/input-components-part-one/the-browser-action-and-page-action-components/role-of-the-manifest-for-this-component/defining-the-component.md)
     * [Клавиши быстрого доступа](chapter-2-architecture-overview/input-components-part-one/shortcut-key-or-command.md)
       * [Событие onCommand](chapter-2-architecture-overview/input-components-part-one/shortcut-key-or-command/the-oncommand-event.md)
+  * [Event Scripts](chapter-2-architecture-overview/event-scripts.md)
 
