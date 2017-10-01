@@ -33,5 +33,5 @@
     * [Клавиши быстрого доступа](chapter-2-architecture-overview/input-components-part-one/shortcut-key-or-command.md)
       * [Событие onCommand](chapter-2-architecture-overview/input-components-part-one/shortcut-key-or-command/the-oncommand-event.md)
   * [Сценарии событий](chapter-2-architecture-overview/event-scripts.md)
-    * [The Need for Event Scripts](chapter-2-architecture-overview/event-scripts/the-need-for-event-scripts.md)
+    * [Применение Event-сценариев](chapter-2-architecture-overview/event-scripts/the-need-for-event-scripts.md)
 

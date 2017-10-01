@@ -1,6 +1,4 @@
-### The Need for Event Scripts
-
-
+### Применение Event-сценариев
 
 
 
