@@ -34,4 +34,5 @@
       * [Событие onCommand](chapter-2-architecture-overview/input-components-part-one/shortcut-key-or-command/the-oncommand-event.md)
   * [Сценарии событий](chapter-2-architecture-overview/event-scripts.md)
     * [Применение Event-сценариев](chapter-2-architecture-overview/event-scripts/the-need-for-event-scripts.md)
+    * [Role of the Manifest for This Component](chapter-2-architecture-overview/event-scripts/role-of-the-manifest-for-this-component.md)
 
