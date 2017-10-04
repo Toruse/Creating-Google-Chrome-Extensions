@@ -9,10 +9,13 @@
 },
 ```
 
-![Рисунок 2-10. HelloShortcutKey: Фоновая страница](/assets/figure-2-10.png)
+![Рисунок 2-10. HelloShortcutKey: Работа в фоне](/assets/figure-2-10.png)
 
-##### Рисунок 2-10. _HelloShortcutKey: Фоновая страница._
+##### Рисунок 2-10. _HelloShortcutKey: Работа в фоне._
 
+![Рисунок 2-11. HelloShortcutKey: Работа в фоне](/assets/figure-2-11.png)
+
+##### Рисунок 2-11. _HelloShortcutKey: Работа в фоне._
 
 
 
