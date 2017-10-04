@@ -35,4 +35,5 @@
   * [Сценарии событий](chapter-2-architecture-overview/event-scripts.md)
     * [Применение Event-сценариев](chapter-2-architecture-overview/event-scripts/the-need-for-event-scripts.md)
     * [Роль манифеста](chapter-2-architecture-overview/event-scripts/role-of-the-manifest-for-this-component.md)
+      * [Background Scripts](chapter-2-architecture-overview/event-scripts/role-of-the-manifest-for-this-component/background-scripts.md)
 

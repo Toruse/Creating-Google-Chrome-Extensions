@@ -32,3 +32,6 @@
 ![Рисунок 2-14. HelloShortcutKey: Работа в фоне](/assets/figure-2-14.png)
 
 ##### Рисунок 2-14. _HelloShortcutKey: Работа в фоне._
+
+
+
