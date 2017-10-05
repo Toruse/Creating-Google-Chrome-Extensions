@@ -10,5 +10,5 @@ chrome.alarms.onAlarm.addListener(function(alarm) {
 });
 ```
 
-Подобно DOM, расширения для `addListener`требует параметр виде функции слушателя. Не следует путать выше указанный метод с `addEventListener`. Каждый компонент \(`browserAction`, `pageAction`, `commands`, `tabs`, `alarms`, `bookmarks`, и т.д.\) передает разную структуру параметров в функцию слушателя. Из примера, слушатель получает аргумент типа `Alarm`.
+Подобно DOM, расширение для `addListener`требует параметр виде функции слушателя. Не следует путать выше указанный метод с `addEventListener ` DOM. Каждый компонент \(`browserAction`, `pageAction`, `commands`, `tabs`, `alarms`, `bookmarks`, и т.д.\) передает разную структуру параметров в функцию слушателя. Из указанного примера: слушатель получает аргумент типа `Alarm`.
 
