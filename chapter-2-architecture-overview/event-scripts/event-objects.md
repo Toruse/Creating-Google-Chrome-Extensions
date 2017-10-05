@@ -3,12 +3,12 @@
 Все рассмотренные события являются объектами, в который можно добавить функцию слушатель. В свою очередь, когда происходит соответствующее событие, Event-объект выполнит помещённые в него функции. Ниже приведён пример с использованием `chrome.alarms.onAlarm`.
 
 ```
-chrome.alarms.onAlarm.addListener\(function\(alarm\) {
-    if\(alarm.name == "A"\) {/\*\*/}
-    else if\(alarm.name == "B"\) {/\*\*/}
-    else {/\*\*/}
-}\);
+chrome.alarms.onAlarm.addListener(function(alarm) {
+    if(alarm.name == "A") {/**/}
+    else if(alarm.name == "B") {/**/}
+    else {/**/}
+});
 ```
 
-Подобно DOM, расширения для `addListener `требует параметр виде функции слушателя. Не следует путать выше указанный метод с `addEventListener`. Каждый компонент \(`browserAction`, `pageAction`, `commands`, `tabs`, `alarms`, `bookmarks`, и т.д.\) передает разную структуру параметров в функцию слушателя. Из примера, слушатель получает аргумент типа `Alarm`.
+Подобно DOM, расширения для `addListener`требует параметр виде функции слушателя. Не следует путать выше указанный метод с `addEventListener`. Каждый компонент \(`browserAction`, `pageAction`, `commands`, `tabs`, `alarms`, `bookmarks`, и т.д.\) передает разную структуру параметров в функцию слушателя. Из примера, слушатель получает аргумент типа `Alarm`.
 
