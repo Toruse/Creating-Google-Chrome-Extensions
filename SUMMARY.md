@@ -37,5 +37,5 @@
     * [Роль манифеста](chapter-2-architecture-overview/event-scripts/role-of-the-manifest-for-this-component.md)
       * [Фоновые скрипты](chapter-2-architecture-overview/event-scripts/role-of-the-manifest-for-this-component/background-scripts.md)
     * [Event-объекты](chapter-2-architecture-overview/event-scripts/event-objects.md)
-    * [Revisiting the onCommand Event](chapter-2-architecture-overview/event-scripts/revisiting-the-oncommand-event.md)
+    * [Разбираем событие OnCommand](chapter-2-architecture-overview/event-scripts/revisiting-the-oncommand-event.md)
 
