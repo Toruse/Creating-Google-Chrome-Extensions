@@ -1,4 +1,4 @@
-### Declarative Event Handlers
+### Декларирование обработчика событий
 
 
 
