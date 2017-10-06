@@ -38,4 +38,5 @@
       * [Фоновые скрипты](chapter-2-architecture-overview/event-scripts/role-of-the-manifest-for-this-component/background-scripts.md)
     * [Event-объекты](chapter-2-architecture-overview/event-scripts/event-objects.md)
     * [Разбираем событие OnCommand](chapter-2-architecture-overview/event-scripts/revisiting-the-oncommand-event.md)
+    * [Declarative Event Handlers](chapter-2-architecture-overview/event-scripts/declarative-event-handlers.md)
 
