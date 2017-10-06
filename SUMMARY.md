@@ -39,5 +39,5 @@
     * [Event-объекты](chapter-2-architecture-overview/event-scripts/event-objects.md)
     * [Разбираем событие OnCommand](chapter-2-architecture-overview/event-scripts/revisiting-the-oncommand-event.md)
     * [Декларирование обработчика событий](chapter-2-architecture-overview/event-scripts/declarative-event-handlers.md)
-      * [The HelloPageAction Extension](chapter-2-architecture-overview/event-scripts/declarative-event-handlers/the-hellopageaction-extension.md)
+      * [Расширение HelloPageAction](chapter-2-architecture-overview/event-scripts/declarative-event-handlers/the-hellopageaction-extension.md)
 

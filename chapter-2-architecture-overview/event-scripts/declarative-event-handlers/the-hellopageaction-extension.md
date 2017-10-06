@@ -1,4 +1,4 @@
-#### The HelloPageAction Extension
+#### Расширение HelloPageAction
 
 
 
