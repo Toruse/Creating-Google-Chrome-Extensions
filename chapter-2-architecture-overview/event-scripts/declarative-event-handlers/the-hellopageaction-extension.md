@@ -38,3 +38,16 @@ function queryTabsAndShowPageActions() {
 
 Для того чтобы отобразить Page-Action страницу нам понадобиться метод chrome.pageAction.show и параметр id вкладки. Таким образом цикл for\(var i=0; i&lt;tabs.length; i++\) перебирает все вкладки и подключает возможность отобразить Page-Action страницу.
 
+##### Листинг 2-8. _Chapter2/HelloPageAction/event\_script.js_
+
+```
+//region {calls}
+console.log(consoleGreeting);
+//Show Page-Actions using the chrome.tabs.query method
+//queryTabsAndShowPageActions();
+//Show Page-Actions using the onUpdated event
+chrome.tabs.onUpdated.addListener(function(tabId,changeInfo,tab) {
+    chrome.pageAction.show(tabId);
+});
+//end-region
+```
