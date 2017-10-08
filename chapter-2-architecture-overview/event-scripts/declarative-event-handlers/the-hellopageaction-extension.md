@@ -44,10 +44,13 @@ function queryTabsAndShowPageActions() {
 //region {calls}
 console.log(consoleGreeting);
 //Show Page-Actions using the chrome.tabs.query method
-//queryTabsAndShowPageActions();
+queryTabsAndShowPageActions();
 //Show Page-Actions using the onUpdated event
 chrome.tabs.onUpdated.addListener(function(tabId,changeInfo,tab) {
     chrome.pageAction.show(tabId);
 });
 //end-region
 ```
+
+
+
