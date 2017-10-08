@@ -44,7 +44,7 @@ function queryTabsAndShowPageActions() {
 //region {calls}
 console.log(consoleGreeting);
 //Show Page-Actions using the chrome.tabs.query method
-queryTabsAndShowPageActions();
+//queryTabsAndShowPageActions();
 //Show Page-Actions using the onUpdated event
 chrome.tabs.onUpdated.addListener(function(tabId,changeInfo,tab) {
     chrome.pageAction.show(tabId);
@@ -52,5 +52,5 @@ chrome.tabs.onUpdated.addListener(function(tabId,changeInfo,tab) {
 //end-region
 ```
 
-
+Однако, есть один недостаток, использования функции queryTabsAndShowPageActions, она выполняется один раз при загрузке браузера. Если вы, например, откроете новую вкладку, страница Page-Action не будет отображаться. В данной ситуации для вкладки нужно повесить слушатель OnUpdated \(см. листинг 2-8\). Далее функцию queryTabsAndShowPageActions нужно закомментировать, а в OnUpdated указать метод chrome.pageAction.show, в который передаётся идентификатор вкладки tabId. Таким образом, каждый раз, когда вкладка открывается или обновляется слушатель отобразит Page-Action страницу на соответствующей вкладке.
 
