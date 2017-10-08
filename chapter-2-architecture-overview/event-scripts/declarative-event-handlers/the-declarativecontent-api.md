@@ -1,4 +1,4 @@
-#### The declarativeContent API
+#### declarativeContent
 
 
 
