@@ -42,4 +42,5 @@
       * [Расширение HelloPageAction](chapter-2-architecture-overview/event-scripts/declarative-event-handlers/the-hellopageaction-extension.md)
       * [declarativeContent](chapter-2-architecture-overview/event-scripts/declarative-event-handlers/the-declarativecontent-api.md)
         * [Добавление и удаление правил](chapter-2-architecture-overview/event-scripts/declarative-event-handlers/the-declarativecontent-api/adding-and-removing-rules.md)
+        * [Using ShowPageAction](chapter-2-architecture-overview/event-scripts/declarative-event-handlers/the-declarativecontent-api/using-showpageaction.md)
 
