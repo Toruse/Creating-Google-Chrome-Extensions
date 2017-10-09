@@ -1,4 +1,4 @@
-##### Adding and Removing Rules
+##### Добавление и удаление правил
 
 
 
