@@ -16,3 +16,21 @@ chrome.declarativeContent.onPageChanged.addRules(ruleList);
 
 Для удаления правил используется метод removeRules. Он принимает массив с идентификаторами правил \(например, \[rule1.id, rule2.id\] \) в качестве первого параметра и функцию обработки в качестве второго параметра. Если массив не определён, то будут удалены все зарегистрированные правила.
 
+##### Листинг 2-9. _Chapter2/PageActionNotes/event_script.js_
+
+```
+//region {переменные и функции}
+var consoleGreeting = "Hello World! - from event_script.js";
+var ruleStackOverflowHost = {
+    "conditions" : [
+        new chrome.declarativeContent.PageStateMatcher({
+            "pageUrl" : {
+                "hostEquals" : "stackoverflow.com",
+                "schemes" : ["http","https"]
+            }
+        })
+    ],
+    "actions" : [new chrome.declarativeContent.ShowPageAction()]
+};
+//end-region
+```
