@@ -44,4 +44,5 @@
         * [Добавление и удаление правил](chapter-2-architecture-overview/event-scripts/declarative-event-handlers/the-declarativecontent-api/adding-and-removing-rules.md)
         * [Использование ShowPageAction](chapter-2-architecture-overview/event-scripts/declarative-event-handlers/the-declarativecontent-api/using-showpageaction.md)
   * [Сценарии контента](chapter-2-architecture-overview/content-scripts.md)
+    * [Role of the Manifest for This Component](chapter-2-architecture-overview/content-scripts/role-of-the-manifest-for-this-component.md)
 
