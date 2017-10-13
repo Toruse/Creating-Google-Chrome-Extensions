@@ -1,4 +1,4 @@
-### HelloContentScript Extension
+### Расширение HelloContentScript
 
 
 
