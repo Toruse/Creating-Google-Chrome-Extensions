@@ -28,9 +28,34 @@ chrome.tabs.executeScript(integer tabId, object details, function callback)
 > **Примечание:**  
 > Программным добавление JavaScript или CSS файлов не стоит злоупотреблять, используйте только в определённых случаях где без этого невозможно обойтись.
 
-`tabId `– это идентификатор вкладки. Следующий параметр содержит JavaScript код \(css\) или файл, который добавляется.
+`tabId`– это идентификатор вкладки. Следующий параметр содержит JavaScript код \(css\) или файл, который добавляется.
 
 Ниже рассмотрим пример расширения HelloContentScript, демонстрирующий использование контент сценариев.
+
+##### Листинг 2-11. _Chapter2/HelloContentScript/manifest.json_
+
+```
+{
+    "manifest_version" : 2,
+    "name" : "HelloContentScript",
+    "description" : "Расширение для демонстрации контент сценариев",
+    "version" : "1.2",
+    "content_scripts" : [
+        {
+            "matches" : ["*://stackoverflow.com/*"],
+            "js" : ["content_script.js"]
+        }
+    ],
+    "background" : {
+        "scripts" : ["event_script.js"],
+        "persistent" : false
+    },
+    "permissions" : ["activeTab"],
+    "browser_action" : {
+        "default_icon" : "icon.png"
+    }
+}
+```
 
 
 
