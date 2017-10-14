@@ -49,3 +49,16 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 
 Добавление кода выполняется при помощи слушателя `onClicked`компонента Browser-Action \(смотри листинге 2-12\). В функции слушателе для вставки стилей используется метод `insertCSS`, а для JavaScript кода - `executeScript`. Результат работы расширения показан на рисунке 2-17 и 2-19, а на рисунке 2-18 добавлены только стили. За пример взята страница [www.example.org](http://www.example.org/).
 
+![Рисунок 2-17. HelloContentScript: Работа в фоне](/assets/figure-2-17.png)
+
+##### Рисунок 2-17. _HelloContentScript: Работа в фоне._
+
+![Рисунок 2-18. HelloContentScript: Работа в фоне](/assets/figure-2-18.png)
+
+##### Рисунок 2-18. _HelloContentScript: Работа в фоне._
+
+
+
+
+
+
