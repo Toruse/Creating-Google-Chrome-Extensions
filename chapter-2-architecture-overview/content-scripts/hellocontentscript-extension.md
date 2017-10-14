@@ -64,5 +64,5 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 > **Примечание:**  
 > Для большего ознакомления с атрибутом Match предлагаем перейти по адресу [https://developer.chrome.com/extensions/match\_patterns](https://developer.chrome.com/extensions/match_patterns).
 
-
+После нажатия кнопки расширения HelloContentScript на панели задач, слушатель `onClicked `добавляет сгенерированные css стили и JavaScript код. Переменная `cssCode `содержит код CSS, который в ссылках добавляет подчеркивание, а для всех div устанавливает цвет фона. Переменная `javascriptCode `содержит JavaScript код, добавляющий на страницу изображение.
 
