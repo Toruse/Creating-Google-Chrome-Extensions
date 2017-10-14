@@ -8,7 +8,7 @@
 
 ##### Рисунок 2-16. _Добавление контент сценария._
 
-##### Листинг 2-12. _Chapter2/HelloContentScript/event_script.js_
+##### Листинг 2-12. _Chapter2/HelloContentScript/event\_script.js_
 
 ```
 //region {переменные и функции}
@@ -46,4 +46,6 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 });
 //end-region
 ```
+
+Добавление кода выполняется при помощи слушателя `onClicked `компонента Browser-Action \(смотри листинге 2-12\). В функции слушателе для вставки стилей используется метод `insertCSS`, а для JavaScript кода - `executeScript`. Результат работы расширения показан на рисунке 2-17 и 2-19, а на рисунке 2-18 добавлены только стили. За пример взята страница www.example.org.
 
