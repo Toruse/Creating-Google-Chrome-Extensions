@@ -57,6 +57,10 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 
 ##### Рисунок 2-18. _HelloContentScript: Работа в фоне._
 
+![Рисунок 2-19. HelloContentScript: Работа в фоне](/assets/figure-2-19.png)
+
+##### Рисунок 2-19. _HelloContentScript: Работа в фоне._
+
 
 
 
