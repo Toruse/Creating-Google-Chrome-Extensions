@@ -61,8 +61,9 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 
 ##### Рисунок 2-19. _HelloContentScript: Работа в фоне._
 
+Примечание:
 
-
+Для большего ознакомления с атрибутом Match предлагаем перейти по адресу https://developer.chrome.com/extensions/match\_patterns.
 
 
 
