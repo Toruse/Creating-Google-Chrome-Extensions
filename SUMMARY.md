@@ -46,4 +46,5 @@
   * [Сценарии контента](chapter-2-architecture-overview/content-scripts.md)
     * [Роль манифеста](chapter-2-architecture-overview/content-scripts/role-of-the-manifest-for-this-component.md)
     * [Расширение HelloContentScript](chapter-2-architecture-overview/content-scripts/hellocontentscript-extension.md)
+  * [Examples of Components](chapter-2-architecture-overview/examples-of-components.md)
 
