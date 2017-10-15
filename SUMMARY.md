@@ -47,5 +47,5 @@
     * [Роль манифеста](chapter-2-architecture-overview/content-scripts/role-of-the-manifest-for-this-component.md)
     * [Расширение HelloContentScript](chapter-2-architecture-overview/content-scripts/hellocontentscript-extension.md)
   * [Примеры использования компонентов](chapter-2-architecture-overview/examples-of-components.md)
-    * [BrowserActionNotes Extension](chapter-2-architecture-overview/examples-of-components/browseractionnotes-extension.md)
+    * [Расширение BrowserActionNotes](chapter-2-architecture-overview/examples-of-components/browseractionnotes-extension.md)
 

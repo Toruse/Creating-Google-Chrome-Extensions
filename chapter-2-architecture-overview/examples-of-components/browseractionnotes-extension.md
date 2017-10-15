@@ -1,4 +1,4 @@
-### BrowserActionNotes Extension
+### Расширение BrowserActionNotes
 
 
 
