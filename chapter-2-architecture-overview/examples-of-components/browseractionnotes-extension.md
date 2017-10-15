@@ -6,6 +6,17 @@
 
 ##### Рисунок 2-20. _BrowserActionNotes: компонент Browser-Action._
 
+![Рисунок 2-21. BrowserActionNotes: Popup компонент](/assets/figure-2-21.png)
+
+##### Рисунок 2-21. _BrowserActionNotes: Popup компонент._
+
+
+
+
+
+
+
+
 
 
 
