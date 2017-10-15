@@ -21,3 +21,8 @@ Popup окно содержит элемент textarea и две кнопки S
 ![Рисунок 2-23. BrowserActionNotes: Панель Application](/assets/figure-2-23.png)
 
 ##### Рисунок 2-23. _BrowserActionNotes: Панель Application._
+
+
+
+
+
