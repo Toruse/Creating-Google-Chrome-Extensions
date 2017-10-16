@@ -49,5 +49,49 @@ Popup окно содержит элемент textarea и две кнопки S
 
 После нажатия кнопки SAVE отработает функция `hardSave`, которая при помощи метода `localStorage.setItem(activeURL,noteText)` сохранит заметку. При нажатии кнопки REMOVE отработает функция `removeNote`, и удалит заметку используя метод `localStorage.removeItem`.
 
+##### Листинг 2-14. _Chapter2/BrowserActionNotes/popup_script.js_
+
+```
+//region {переменные и функции}
+var consoleGreeting = "Hello World! - from popup_script.js";
+//Также можно прокешировать активный URL вкладки
+//var activeURL = "";
+var noteElementID = "note";
+var saveButtonID = "save_button";
+var removeButtonID = "remove_button";
+var noteElement = null;
+var saveButton = null;
+var removeButton = null;
+var queryInfo = {"active":true};
+function logSuccess(task) {
+    console.log("%s Successful!",task);
+    chrome.browserAction.setBadgeText({"text":localStorage.length.toString()});
+}
+//function logFailure(task) {console.log("%s Failed!",task);}
+function loadNoteForActiveURL(noteElement) {
+    chrome.tabs.query(queryInfo,function(tabs) {
+        var activeURL = tabs[0].url;
+        noteElement.value = localStorage.getItem(activeURL);
+        logSuccess("Get-Storage");
+    });
+}
+function softSave(noteText) {}
+function hardSave(noteText) { //Прописываем значение
+    chrome.tabs.query(queryInfo,function(tabs) {
+        var activeURL = tabs[0].url;
+        localStorage.setItem(activeURL,noteText);
+        logSuccess("Set-Storage");
+    });
+}
+function removeNote() {
+    chrome.tabs.query(queryInfo,function(tabs) {
+        var activeURL = tabs[0].url;
+        localStorage.removeItem(activeURL);
+        logSuccess("Remove-Storage");
+    });
+}
+//end-region
+```
+
 
 
