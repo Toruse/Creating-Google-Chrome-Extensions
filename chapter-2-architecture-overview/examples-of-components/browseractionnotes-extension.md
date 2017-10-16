@@ -107,3 +107,28 @@ function removeNote() {
 > Пометка, которая находиться на Browser-Action, позволяет отобразить краткую информацию о состоянии расширения. Длинная данного сообщения не должна превышать 4 символа. 
 > Вы легко можете задать текст и цвет пометки при помощи методов `browserAction.setBadgeText` и `browserAction.setBadgeBackgroundColor`.
 
+##### Листинг 2-15. _Chapter2/BrowserActionNotes/popup_script.js_
+
+```
+//region {вычисление}
+console.log(consoleGreeting);
+document.addEventListener('DOMContentLoaded',function(dcle) {
+    saveButton = document.getElementById(saveButtonID);
+    removeButton = document.getElementById(removeButtonID);
+    noteElement = document.getElementById(noteElementID);
+
+    //Загрузка заметки для активного URL (если она была сохранена)
+    loadNoteForActiveURL(noteElement);
+    chrome.browserAction.setBadgeBackgroundColor({"color":[255,0,0,255]})
+    //Добавляем слушатель на нажатие кнопки
+    saveButton.addEventListener('click',function(ce) {
+        var noteText = noteElement.value;
+        if(noteText.length > 0) hardSave(noteText);
+    });
+    removeButton.addEventListener('click',function(ce) {
+        removeNote();
+    });
+});
+//end-region
+```
+
