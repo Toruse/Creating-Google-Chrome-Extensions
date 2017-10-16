@@ -22,6 +22,29 @@ Popup окно содержит элемент textarea и две кнопки S
 
 ##### Рисунок 2-23. _BrowserActionNotes: Панель Application._
 
+##### Листинг 2-13. _Chapter2/BrowserActionNotes/popup.html_
+
+```
+<script src="popup_script.js"></script>
+
+<style>
+...
+</style>
+</head>
+<body>
+     <div id="container">
+          <div id="top"><textarea id="note" placeholder="..."></textarea></div>
+          <div id="bottom">
+               <br>
+               <button id="save_button">SAVE</button>
+               <br>
+               <button id="remove_button">REMOVE</button>
+          </div>
+     </div>
+</body>
+</html>
+```
+
 
 
 
