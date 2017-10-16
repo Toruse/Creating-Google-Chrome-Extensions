@@ -103,11 +103,11 @@ function removeNote() {
 
 ##### Рисунок 2-25. _BrowserActionNotes: Консольная панель._
 
-> **Примечание:**
-> Пометка, которая находиться на Browser-Action, позволяет отобразить краткую информацию о состоянии расширения. Длинная данного сообщения не должна превышать 4 символа. 
+> **Примечание:**  
+> Пометка, которая находиться на Browser-Action, позволяет отобразить краткую информацию о состоянии расширения. Длинная данного сообщения не должна превышать 4 символа.   
 > Вы легко можете задать текст и цвет пометки при помощи методов `browserAction.setBadgeText` и `browserAction.setBadgeBackgroundColor`.
 
-##### Листинг 2-15. _Chapter2/BrowserActionNotes/popup_script.js_
+##### Листинг 2-15. _Chapter2/BrowserActionNotes/popup\_script.js_
 
 ```
 //region {вычисление}
@@ -131,4 +131,6 @@ document.addEventListener('DOMContentLoaded',function(dcle) {
 });
 //end-region
 ```
+
+
 

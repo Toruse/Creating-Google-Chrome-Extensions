@@ -48,4 +48,5 @@
     * [Расширение HelloContentScript](chapter-2-architecture-overview/content-scripts/hellocontentscript-extension.md)
   * [Примеры использования компонентов](chapter-2-architecture-overview/examples-of-components.md)
     * [Расширение BrowserActionNotes](chapter-2-architecture-overview/examples-of-components/browseractionnotes-extension.md)
+    * [PageActionNotes Extension](chapter-2-architecture-overview/examples-of-components/pageactionnotes-extension.md)
 
