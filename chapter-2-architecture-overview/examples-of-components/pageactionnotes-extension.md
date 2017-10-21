@@ -10,5 +10,17 @@
 
 На изображении 2-27 и 2-29 показан Page-Action с Popup окном.
 
+![Рисунок 2-27. PageActionNotes: Popup окно](/assets/figure-2-27.png)
+
+##### Рисунок 2-27. _PageActionNotes: Popup окно._
+
+![Рисунок 2-28. PageActionNotes: Popup окно](/assets/figure-2-28.png)
+
+##### Рисунок 2-28. _PageActionNotes: Popup окно._
+
+![Рисунок 2-29. PageActionNotes: Консольная панель popup окна](/assets/figure-2-29.png)
+
+##### Рисунок 2-29. _PageActionNotes: Консольная панель popup окна._
+
 
 
