@@ -1,4 +1,4 @@
-## Input Components: Part Two
+## Input компоненты: Часть вторая
 
 
 

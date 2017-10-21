@@ -50,6 +50,6 @@
     * [Расширение BrowserActionNotes](chapter-2-architecture-overview/examples-of-components/browseractionnotes-extension.md)
     * [Расширение PageActionNotes](chapter-2-architecture-overview/examples-of-components/pageactionnotes-extension.md)
   * [Резюме](chapter-2-architecture-overview/summary.md)
-* [Доступ к API и обмен сообщениями](chapter-3-api-availability-and-messaging.md)
-  * [Input Components: Part Two](chapter-3-api-availability-and-messaging/input-components-part-two.md)
+* [Глава 3: Доступ к API и обмен сообщениями](chapter-3-api-availability-and-messaging.md)
+  * [Input компоненты: Часть вторая](chapter-3-api-availability-and-messaging/input-components-part-two.md)
 
