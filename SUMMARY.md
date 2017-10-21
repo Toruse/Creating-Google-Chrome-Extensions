@@ -52,4 +52,5 @@
   * [Резюме](chapter-2-architecture-overview/summary.md)
 * [Глава 3: Доступ к API и обмен сообщениями](chapter-3-api-availability-and-messaging.md)
   * [Input компоненты: Часть вторая](chapter-3-api-availability-and-messaging/input-components-part-two.md)
+    * [Omnibox Inputs](chapter-3-api-availability-and-messaging/input-components-part-two/omnibox-inputs.md)
 
