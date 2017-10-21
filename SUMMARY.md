@@ -49,5 +49,5 @@
   * [Примеры использования компонентов](chapter-2-architecture-overview/examples-of-components.md)
     * [Расширение BrowserActionNotes](chapter-2-architecture-overview/examples-of-components/browseractionnotes-extension.md)
     * [Расширение PageActionNotes](chapter-2-architecture-overview/examples-of-components/pageactionnotes-extension.md)
-  * [Summary](chapter-2-architecture-overview/summary.md)
+  * [Резюме](chapter-2-architecture-overview/summary.md)
 
