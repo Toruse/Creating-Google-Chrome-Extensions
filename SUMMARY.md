@@ -50,4 +50,5 @@
     * [Расширение BrowserActionNotes](chapter-2-architecture-overview/examples-of-components/browseractionnotes-extension.md)
     * [Расширение PageActionNotes](chapter-2-architecture-overview/examples-of-components/pageactionnotes-extension.md)
   * [Резюме](chapter-2-architecture-overview/summary.md)
+* [Chapter 3: API Availability and Messaging](chapter-3-api-availability-and-messaging.md)
 
