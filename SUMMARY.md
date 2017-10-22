@@ -53,4 +53,5 @@
 * [Глава 3: Доступ к API и обмен сообщениями](chapter-3-api-availability-and-messaging.md)
   * [Input компоненты: Часть вторая](chapter-3-api-availability-and-messaging/input-components-part-two.md)
     * [Адресная строка](chapter-3-api-availability-and-messaging/input-components-part-two/omnibox-inputs.md)
+      * [Role of an Event Script for this Component](chapter-3-api-availability-and-messaging/input-components-part-two/omnibox-inputs/role-of-an-event-script-for-this-component.md)
 
