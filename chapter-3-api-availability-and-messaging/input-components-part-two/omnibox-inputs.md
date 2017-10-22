@@ -20,6 +20,28 @@ Omnibox – это input компонент, который позволяет �
 
 ##### Рисунок 3-2. _HelloOmniboxInput: Ввод ключевого слова._
 
+##### Листинг 3-1. _Chapter3/HelloOmniboxInput/manifest.json_
+
+```
+{
+    "manifest_version" : 2,
+    "version" : "1.2",
+    "name" : "HelloOmniboxInput",
+    "description" : "Расширение демонстрирующее Omnibox",
+    "background" : {
+        "scripts" : ["event_script.js"],
+        "persistent" : false
+    },
+    "omnibox" : {
+        "keyword" : "OI"
+    },
+    "icons" : {
+        "16" : "icon-16.png",
+        "128" : "icon-128.png"
+    }
+}
+```
+
 
 
 
