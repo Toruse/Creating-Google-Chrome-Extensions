@@ -1,4 +1,4 @@
-#### Role of an Event Script for this Component
+#### Роль событий для этого компонента
 
 
 
