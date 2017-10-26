@@ -55,6 +55,12 @@ function getSuggestResults(key) {
 //end-region
 ```
 
+![Рисунок 3-4. HelloOmniboxInput: Похожие результаты](/assets/figure-3-4.png)
+
+##### Рисунок 3-4. _HelloOmniboxInput: Похожие результаты._
+
+
+
 
 
 
