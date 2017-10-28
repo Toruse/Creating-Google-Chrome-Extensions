@@ -53,6 +53,23 @@ function getSuggestResults(key) {
     return results;
 }
 //end-region
+
+//region {вызовы}
+chrome.omnibox.setDefaultSuggestion({"description":"Search on developer.chrome.com"});
+chrome.omnibox.onInputStarted.addListener(function() {
+    console.log("<InputStarted>");
+});
+chrome.omnibox.onInputChanged.addListener(function(text,suggest) {
+    console.log("<InputChanged> Text: " + text);
+    //suggest(suggestResults);
+    suggest(getSuggestResults(text));
+});
+chrome.omnibox.onInputEntered.addListener(function(text,disposition) {
+    console.log("<InputEntered> Text: " + text);
+    CreateWindow(searchService + text);
+    //default disposition is ON_INPUT_ENTERED_DISPOSITION.CURRENT_TAB
+});
+//end-region
 ```
 
 ![Рисунок 3-4. HelloOmniboxInput: Похожие результаты](/assets/figure-3-4.png)
