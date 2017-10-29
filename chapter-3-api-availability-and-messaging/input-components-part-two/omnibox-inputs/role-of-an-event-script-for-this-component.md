@@ -6,18 +6,18 @@
 
 ##### Рисунок 3-3. _HelloOmniboxInput: Взаимодействие с omnibox._
 
-##### Листинг 3-2. _Chapter3/HelloOmniboxInput/event_script.js_
+##### Листинг 3-2. _Chapter3/HelloOmniboxInput/event\_script.js_
 
 ```
 //region {переменные и функции}
 var ON_INPUT_ENTERED_DISPOSITION = {
-	"CURRENT_TAB" : "currentTab",
-	"NEW_FOREGROUND_TAB" : "newForegroundTab",
-	"NEW_BACKGROUND_TAB" : "newBackgroundTab"
+    "CURRENT_TAB" : "currentTab",
+    "NEW_FOREGROUND_TAB" : "newForegroundTab",
+    "NEW_BACKGROUND_TAB" : "newBackgroundTab"
 };
 var suggestResultOne = {
-	"content" : "Some content",
-	"description" : "Description"
+    "content" : "Some content",
+    "description" : "Description"
 };
 var suggestResults = [suggestResultOne];
 var searchService = "https://www.google.com/search?q=chrome+extensions+developers+";
@@ -76,8 +76,10 @@ chrome.omnibox.onInputEntered.addListener(function(text,disposition) {
 
 ##### Рисунок 3-4. _HelloOmniboxInput: Похожие результаты._
 
+В сценарии используется два слушателя это `chrome.omnibox.onInputChanged`и `chrome.omnibox.onInputEntered`. Первый отслеживает, что вводится пользователем в адресатной строке, а второй срабатывает, когда закончен ввод данных. Результат работы показан на рисунке 3-6. 
 
+![Рисунок 3-5. HelloOmniboxInput: Взаимодействие с omnibox](/assets/figure-3-5.png)
 
-
+##### Рисунок 3-5. _HelloOmniboxInput: Взаимодействие с omnibox._
 
 
