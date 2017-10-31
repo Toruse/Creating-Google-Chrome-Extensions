@@ -82,7 +82,7 @@ chrome.omnibox.onInputEntered.addListener(function(text,disposition) {
 
 ##### Рисунок 3-5. _HelloOmniboxInput: Взаимодействие с omnibox._
 
-Когда выполняется ввод данных в адресатной строке, отрабатывает событие `onInputChanged`, которые генерирует результат виде массива. Каждый элемент которого имеет свойства `content `– содержание и `description `– описание. Пример наведён ниже:
+Обработчик событий`onInputChanged`генерирует результат виде массива, каждый элемент которого имеет свойства `content`– содержание и `description`– описание. Пример наведён ниже:
 
 ```
 var suggestResultOne = {
@@ -90,4 +90,6 @@ var suggestResultOne = {
     "description" : "Description"
 };
 ```
+
+
 
