@@ -76,10 +76,18 @@ chrome.omnibox.onInputEntered.addListener(function(text,disposition) {
 
 ##### Рисунок 3-4. _HelloOmniboxInput: Похожие результаты._
 
-В сценарии используется два слушателя это `chrome.omnibox.onInputChanged`и `chrome.omnibox.onInputEntered`. Первый отслеживает, что вводится пользователем в адресатной строке, а второй срабатывает, когда закончен ввод данных. Результат работы показан на рисунке 3-6. 
+В сценарии используется два слушателя это `chrome.omnibox.onInputChanged`и `chrome.omnibox.onInputEntered`. Первый отслеживает, что вводится пользователем в адресатной строке, а второй срабатывает, когда закончен ввод данных. Результат работы показан на рисунке 3-6.
 
 ![Рисунок 3-5. HelloOmniboxInput: Взаимодействие с omnibox](/assets/figure-3-5.png)
 
 ##### Рисунок 3-5. _HelloOmniboxInput: Взаимодействие с omnibox._
 
+Когда выполняется ввод данных в адресатной строке, отрабатывает событие `onInputChanged`, которые генерирует результат виде массива. Каждый элемент которого имеет свойства `content `– содержание и `description `– описание. Пример наведён ниже:
+
+```
+var suggestResultOne = {
+    "content" : "Some content",
+    "description" : "Description"
+};
+```
 
