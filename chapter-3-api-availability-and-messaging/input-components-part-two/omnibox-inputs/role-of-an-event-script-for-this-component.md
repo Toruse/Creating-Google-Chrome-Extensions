@@ -103,6 +103,16 @@ var suggestResultOne = {
 
 ##### Рисунок 3-7. _HelloOmniboxInput: Выбор значения по умолчанию._
 
+![Рисунок 3-8. HelloOmniboxInput: Результат выбора](/assets/figure-3-8.png)
+
+##### Рисунок 3-8. _HelloOmniboxInput: Результат выбора._
+
+
+
+
+
+
+
 
 
 
