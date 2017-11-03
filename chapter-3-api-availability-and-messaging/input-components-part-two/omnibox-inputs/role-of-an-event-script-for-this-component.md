@@ -107,13 +107,13 @@ var suggestResultOne = {
 
 ##### Рисунок 3-8. _HelloOmniboxInput: Результат выбора._
 
+Чтобы указать значение по умолчанию в выпадающем списке адресной строки при вводе данных, следует написать следующий код:
 
-
-
-
-
-
-
+```
+chrome.omnibox.setDefaultSuggestion(
+    {"description":"Search on developer.chrome.com"}
+);
+```
 
 
 
