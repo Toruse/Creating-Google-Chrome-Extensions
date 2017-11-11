@@ -8,7 +8,7 @@
 
 Каждый пункт контекстного меню имеет уникальный идентификатор. В листинге 3-4 для этого определяется переменная `ID_CONTEXT_MENU_ITEM_HELLO`. Далее указан список типов элементов меню. В нашем случае будет указан стандартный \(`normal`\) тип. Чтобы указать на каком элементе страницы применять пункт меню, нужно указать параметр `contexts`. Соответственно в переменной `TYPES_CONTEXT` перечислены поддерживаемые элементы контекста. Так как меню нашего расширения должно взаимодействовать с выделенным содержимым, нужно указать значение `selection`.
 
-##### Листинг 3-4. _Chapter3/HelloContextMenuItem/event_script.js_
+##### Листинг 3-4. _Chapter3/HelloContextMenuItem/event\_script.js_
 
 ```
 //region {переменные и функции}
@@ -42,9 +42,12 @@ var createProperties = {
     "id" : ID_CONTEXT_MENU_ITEM_HELLO,
     "title" : "Custom search '%s'",
     "contexts" : [TYPES_CONTEXT.ALL],
+    "documentUrlPatterns" : [match_pattern_stackoverflow],
     //"targetUrlPatterns" используется для TYPES_CONTEXT.IMAGE, TYPES_CONTEXT.VIDEO, TYPES_CONTEXT.AUDIO, etc.
     "targetUrlPatterns" : []
 };
 //end-region
 ```
+
+
 
