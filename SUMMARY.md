@@ -55,5 +55,5 @@
     * [Адресная строка](chapter-3-api-availability-and-messaging/input-components-part-two/omnibox-inputs.md)
       * [Роль событий для этого компонента](chapter-3-api-availability-and-messaging/input-components-part-two/omnibox-inputs/role-of-an-event-script-for-this-component.md)
     * [Элементы контекстного меню](chapter-3-api-availability-and-messaging/input-components-part-two/context-menu-items.md)
-      * [Creating an Item](chapter-3-api-availability-and-messaging/input-components-part-two/context-menu-items/creating-an-item.md)
+      * [Создание элемента](chapter-3-api-availability-and-messaging/input-components-part-two/context-menu-items/creating-an-item.md)
 
