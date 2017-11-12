@@ -55,7 +55,7 @@ var createProperties = {
 
 ##### Рисунок 3-10. _HelloContextMenuItem: Компонент пункта контекстного меню._
 
-##### Листинг 3-5. _Chapter3/HelloContextMenuItem/event_script.js_
+##### Листинг 3-5. _Chapter3/HelloContextMenuItem/event\_script.js_
 
 ```
 //region {вызовы}
@@ -73,7 +73,5 @@ chrome.contextMenus.create(createProperties,function() {
 //end-region
 ```
 
-
-
-
+Создание пункта контекстного меню происходит в два этапа. Первый, это создание самого пункта \(Рисунок 3-9\), а второй назначение слушателя `onClicked`. Создание пункта контекстного меню осуществляется при помощи метода `contextMenus.create`, который принимает в качестве первого параметра объект с заданными свойствами. Если при создании возникнет ошибка, то объект` chrome.runtime.lastError` вернёт её. И наоборот, если создание прошло успешно, вы можете назначить слушатель `onClicked `\(Листинг 3-5\).
 
