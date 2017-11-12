@@ -55,6 +55,24 @@ var createProperties = {
 
 ##### Рисунок 3-10. _HelloContextMenuItem: Компонент пункта контекстного меню._
 
+##### Листинг 3-5. _Chapter3/HelloContextMenuItem/event_script.js_
+
+```
+//region {вызовы}
+console.log(consoleGreeting);
+chrome.contextMenus.create(createProperties,function() {
+    if(!chrome.runtime.lastError) {
+        logSuccess("ContextMenus.Create");
+        chrome.contextMenus.onClicked.addListener(function(info,tab) {
+            console.log("id: %s, selection: %s, url: %s",info.menuItemId,info.selectionText,tab.url);
+        });
+    } else {
+        logFailure("ContextMenus.Create");
+    }
+});
+//end-region
+```
+
 
 
 
