@@ -56,5 +56,5 @@
       * [Роль событий для этого компонента](chapter-3-api-availability-and-messaging/input-components-part-two/omnibox-inputs/role-of-an-event-script-for-this-component.md)
     * [Элементы контекстного меню](chapter-3-api-availability-and-messaging/input-components-part-two/context-menu-items.md)
       * [Создание элемента](chapter-3-api-availability-and-messaging/input-components-part-two/context-menu-items/creating-an-item.md)
-    * [Revisiting Content-UI](chapter-3-api-availability-and-messaging/input-components-part-two/revisiting-content-ui.md)
+    * [Пересмотр Content-UI](chapter-3-api-availability-and-messaging/input-components-part-two/revisiting-content-ui.md)
 
