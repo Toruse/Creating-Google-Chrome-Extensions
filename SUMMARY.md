@@ -57,5 +57,5 @@
     * [Элементы контекстного меню](chapter-3-api-availability-and-messaging/input-components-part-two/context-menu-items.md)
       * [Создание элемента](chapter-3-api-availability-and-messaging/input-components-part-two/context-menu-items/creating-an-item.md)
     * [Пересмотр Content-UI](chapter-3-api-availability-and-messaging/input-components-part-two/revisiting-content-ui.md)
-      * [The HelloContentUI Extension](chapter-3-api-availability-and-messaging/input-components-part-two/revisiting-content-ui/the-hellocontentui-extension.md)
+      * [Расширение HelloContentUI](chapter-3-api-availability-and-messaging/input-components-part-two/revisiting-content-ui/the-hellocontentui-extension.md)
 

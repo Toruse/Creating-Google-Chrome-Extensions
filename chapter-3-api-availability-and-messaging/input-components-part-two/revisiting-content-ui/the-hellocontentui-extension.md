@@ -1,4 +1,4 @@
-#### The HelloContentUI Extension
+#### Расширение HelloContentUI
 
 
 
