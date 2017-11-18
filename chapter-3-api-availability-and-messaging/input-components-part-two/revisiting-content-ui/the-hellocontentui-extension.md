@@ -61,7 +61,7 @@ function createButton() {
 }
 //end-region
 
-//region {Вычисления}
+//region {вычисления}
 console.log(consoleGreeting);
 var button = createButton();
 button.addEventListener("click",function() {
@@ -71,5 +71,26 @@ button.addEventListener("click",function() {
 //end-region
 ```
 
-Как показано на рисунке 3-13 контент сценарий \(content\_script.js\) используется для создания кнопки «Отправить сообщение». Метод `addEventListener `\(листинг 3-7\) используется для обработки клика на этой кнопке, после чего Page-Action получит команду вывести сообщение в консоли. Так как контент сценарий и сценарий событий - это различные компоненты, для взаимодействовать друг с другом используется механизм сообщений \(листинг 3-7 и 3-8\). Чтобы отправить такое сообщение в контент сценарии используется метод `runtime.sendMessage`.
+Как показано на рисунке 3-13 контент сценарий \(content\_script.js\) используется для создания кнопки «Отправить сообщение». Метод `addEventListener `\(листинг 3-7\) используется для обработки клика на этой кнопке. Сама же кнопка указывает сценарию событий активировать Page-Action. Так как контент сценарий и сценарий событий - это различные компоненты, для взаимодействовать друг с другом используется механизм сообщений \(листинг 3-7 и 3-8\). Чтобы отправить такое сообщение в контент сценарии используется метод `runtime.sendMessage`.
+
+##### Листинг 3-8. _Chapter3/HelloContentUI/event\_script.js_
+
+```
+//region {переменные и функции}
+var consoleGreeting = "Hello World! - from event_script.js";
+var responseMessage = {"data":"Test message Y"};
+//end-region
+
+//region {вычисления}
+console.log(consoleGreeting);
+//Показать Page-Action при помощи события onMessage
+chrome.runtime.onMessage.addListener(function(requestMessage,sender,sendResponse) {
+    chrome.pageAction.show(sender.tab.id);
+    console.log("requestMessage: " + requestMessage.data);
+    sendResponse(responseMessage);
+});
+//end-region
+```
+
+
 
