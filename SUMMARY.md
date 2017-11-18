@@ -58,5 +58,5 @@
       * [Создание элемента](chapter-3-api-availability-and-messaging/input-components-part-two/context-menu-items/creating-an-item.md)
     * [Пересмотр Content-UI](chapter-3-api-availability-and-messaging/input-components-part-two/revisiting-content-ui.md)
       * [Расширение HelloContentUI](chapter-3-api-availability-and-messaging/input-components-part-two/revisiting-content-ui/the-hellocontentui-extension.md)
-  * [Messaging for Communication](chapter-3-api-availability-and-messaging/messaging-for-communication.md)
+  * [Коммуникация сообщениями](chapter-3-api-availability-and-messaging/messaging-for-communication.md)
 
