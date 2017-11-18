@@ -94,3 +94,9 @@ chrome.runtime.onMessage.addListener(function(requestMessage,sender,sendResponse
 
 В листинге 3-8 событийный сценарий \(event\_script.js\) с помощью `runtime.onMessage` может прослушать отправленное сообщение. Чтобы его обработать в метод `runtime.onMessage.addListener`передаётся функция, содержащая код для активации кнопки Page-Action на активной вкладке браузера \(Рисунок 3-14\).
 
+![Рисунок 3-14. HelloContentUI: Page-Action компонент](/assets/figure-3-14.png)
+
+##### Рисунок 3-14. _HelloContentUI: Page-Action компонент._
+
+
+
