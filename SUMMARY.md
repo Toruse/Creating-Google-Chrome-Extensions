@@ -60,5 +60,5 @@
       * [Расширение HelloContentUI](chapter-3-api-availability-and-messaging/input-components-part-two/revisiting-content-ui/the-hellocontentui-extension.md)
   * [Коммуникация сообщениями](chapter-3-api-availability-and-messaging/messaging-for-communication.md)
     * [API-интерфейс и события](chapter-3-api-availability-and-messaging/messaging-for-communication/apis-and-events.md)
-    * [Web Page Scripts and Event Scripts](chapter-3-api-availability-and-messaging/messaging-for-communication/web-page-scripts-and-event-scripts.md)
+    * [Скрипты веб-страницы и Event-сценарии](chapter-3-api-availability-and-messaging/messaging-for-communication/web-page-scripts-and-event-scripts.md)
 
