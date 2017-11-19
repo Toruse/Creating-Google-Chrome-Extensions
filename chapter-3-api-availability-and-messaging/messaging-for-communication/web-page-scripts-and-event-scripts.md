@@ -1,4 +1,4 @@
-### Web Page Scripts and Event Scripts
+### Скрипты веб-страницы и Event-сценарии
 
 
 
