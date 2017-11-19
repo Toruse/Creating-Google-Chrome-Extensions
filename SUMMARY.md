@@ -59,5 +59,5 @@
     * [Пересмотр Content-UI](chapter-3-api-availability-and-messaging/input-components-part-two/revisiting-content-ui.md)
       * [Расширение HelloContentUI](chapter-3-api-availability-and-messaging/input-components-part-two/revisiting-content-ui/the-hellocontentui-extension.md)
   * [Коммуникация сообщениями](chapter-3-api-availability-and-messaging/messaging-for-communication.md)
-    * [APIs and Events](chapter-3-api-availability-and-messaging/messaging-for-communication/apis-and-events.md)
+    * [API-интерфейс и события](chapter-3-api-availability-and-messaging/messaging-for-communication/apis-and-events.md)
 
