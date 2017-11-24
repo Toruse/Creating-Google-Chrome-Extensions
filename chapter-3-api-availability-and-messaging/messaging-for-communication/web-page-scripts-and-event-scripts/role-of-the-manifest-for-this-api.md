@@ -1,4 +1,4 @@
-#### Role of the Manifest for This API
+#### Роль манифеста для этого API
 
 
 
