@@ -6,24 +6,21 @@
 
 ```
 //region {переменные и функции}
-//Внимание! Значение данной переменной смотрите на странице Расширений
-var extensionID = "aafejdaofaaaedckjdhoeigbopfeooem";
-var sendMessageButtonID = "send_message";
 var greeting = "Hello World!";
-var message = "Test message X";
-function responseCallback(responseObject) {
-    console.log("Message '" + responseObject.message + "' from Sender '" + responseObject.sender + "'");
+var responseObject = {
+    message : "Test message Y",
+    sender : "event_script.js"
+};
+function GetFormattedMessageString(message,sender) {
+    return "Message '" + message + "' from Sender '" + sender.url + "'";
 }
 //end-region
 
 //region {вычисления}
 console.log(greeting);
-document.addEventListener("DOMContentLoaded",function(dcle) {
-    var buttonID = document.getElementById(sendMessageButtonID);
-    buttonID.addEventListener("click",function(ce) {
-        //Это сообщение будет перехвачено сценарием event_script.js
-        chrome.runtime.sendMessage(extensionID,message,responseCallback);
-    });
+chrome.runtime.onMessageExternal.addListener(function(message,sender,sendResponse) {
+    sendResponse(responseObject); //Будет вызван из сценария, где определён sendResponse
+    console.log(GetFormattedMessageString(message,sender));
 });
 //end-region
 ```
