@@ -61,4 +61,5 @@
   * [Коммуникация сообщениями](chapter-3-api-availability-and-messaging/messaging-for-communication.md)
     * [API-интерфейс и события](chapter-3-api-availability-and-messaging/messaging-for-communication/apis-and-events.md)
     * [Скрипты веб-страницы и Event-сценарии](chapter-3-api-availability-and-messaging/messaging-for-communication/web-page-scripts-and-event-scripts.md)
+      * [Listening to the Event](chapter-3-api-availability-and-messaging/messaging-for-communication/web-page-scripts-and-event-scripts/listening-to-the-event.md)
 
