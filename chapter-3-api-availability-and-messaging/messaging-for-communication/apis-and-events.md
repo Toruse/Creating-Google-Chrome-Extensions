@@ -14,6 +14,10 @@
 * `chrome.runtime.onConnect` \(и соответствующий слушатель `port.onMessage`\)
 * `chrome.runtime.onConnectExternal` \(и соответствующий слушатель `port.onMessage`\)
 
+![Рисунок 3-16. Консоль панель фоновой страницы](/assets/figure-3-16.png)
+
+##### Рисунок 3-16. _Консоль панель фоновой страницы._
+
 
 
 
