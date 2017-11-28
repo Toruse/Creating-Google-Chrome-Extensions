@@ -64,4 +64,5 @@
       * [Прослушивание события](chapter-3-api-availability-and-messaging/messaging-for-communication/web-page-scripts-and-event-scripts/listening-to-the-event.md)
       * [Роль манифеста для этого API](chapter-3-api-availability-and-messaging/messaging-for-communication/web-page-scripts-and-event-scripts/role-of-the-manifest-for-this-api.md)
       * [Использование долгоживущих соединений](chapter-3-api-availability-and-messaging/messaging-for-communication/web-page-scripts-and-event-scripts/using-long-lived-connections.md)
+    * [Content Scripts and Event Scripts](chapter-3-api-availability-and-messaging/messaging-for-communication/content-scripts-and-event-scripts.md)
 
