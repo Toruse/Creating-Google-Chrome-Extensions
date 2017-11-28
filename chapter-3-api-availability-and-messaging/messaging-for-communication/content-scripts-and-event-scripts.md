@@ -1,4 +1,4 @@
-### Content Scripts and Event Scripts
+### Content и Event сценарии
 
 
 
