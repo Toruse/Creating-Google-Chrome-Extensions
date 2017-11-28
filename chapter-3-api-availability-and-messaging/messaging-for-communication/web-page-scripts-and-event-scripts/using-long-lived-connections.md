@@ -7,5 +7,13 @@
 > Примечание:
 > Event-сценарий редко использует метод `chrome.runtime.connect`, и в основном вы будете встречать событийный метод `chrome.runtime.onConnect` или `chrome.runtime.onConnectExternal`. Они используются для общения с другими расширениями. Об этом можно почитать больше на [https://developer.chrome.com/extensions/messaging\#external](https://developer.chrome.com/extensions/messaging#external).
 
+```
+var port = chrome.runtime.connect("...",{"name" : "connection1"});
+port.onMessage.addListener(function(message) {
+    console.log(message);
+});
+port.postMessage("Test message X");
+```
+
 
 
