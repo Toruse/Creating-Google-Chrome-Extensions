@@ -4,9 +4,6 @@
 
 Данный метод первым параметром принимает `extensionID`- идентификатор расширения, которое подключается к долгоживущему соединению. Второй параметр объект, который содержит дополнительную информации о соединении, например: `{"name" : "connection1"}`. Сам метод возвращает объект `port`, а при помощи метода  `port.postMessage` происходит отправка сообщения.
 
-> Примечание:  
-> Event-сценарий редко использует метод `chrome.runtime.connect`, и в основном вы будете встречать событийный метод `chrome.runtime.onConnect` или `chrome.runtime.onConnectExternal`. Они используются для общения с другими расширениями. Об этом можно почитать больше на [https://developer.chrome.com/extensions/messaging\#external](https://developer.chrome.com/extensions/messaging#external).
-
 ```
 var port = chrome.runtime.connect("...",{"name" : "connection1"});
 port.onMessage.addListener(function(message) {
@@ -15,9 +12,14 @@ port.onMessage.addListener(function(message) {
 port.postMessage("Test message X");
 ```
 
-Чтобы принять сообщение, используется перехватчик `chrome.runtime.onConnectExternal`, в который передается объект `port`. Данный метод используется для соединения между сценарием веб-страницы и event-сценариями, а в самом расширении используется метод `chrome.runtime.onConnect`.
+> Примечание:  
+> Event-сценарий редко использует метод `chrome.runtime.connect`, и в основном вы будете встречать событийный метод `chrome.runtime.onConnect` или `chrome.runtime.onConnectExternal`. Об этом можно почитать больше на [https://developer.chrome.com/extensions/messaging\#external](https://developer.chrome.com/extensions/messaging#external).
 
-И наконец, чтобы слушать входящие сообщения, указываем слушатель `port.onMessage`. В результате оба скрипта имеют доступ к общему порту, и могу одновременно прослушивать сообщения. Как показано  в коде ниже:
+
+
+
+
+Чтобы принять сообщение, используется перехватчик `chrome.runtime.onConnectExternal`, в который передается объект `port`. И наконец, чтобы слушать входящие сообщения, назначаем`port.onMessage`. В результате оба скрипта имеют доступ к общему порту, и могу одновременно прослушивать сообщения. Как показано  в коде ниже:
 
 ```
 chrome.runtime.onConnectExternal.addListener(function(port) {
@@ -28,4 +30,6 @@ chrome.runtime.onConnectExternal.addListener(function(port) {
     });
 });
 ```
+
+
 
