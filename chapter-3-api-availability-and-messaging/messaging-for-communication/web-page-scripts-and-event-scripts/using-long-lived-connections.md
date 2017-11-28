@@ -15,10 +15,6 @@ port.postMessage("Test message X");
 > Примечание:  
 > Event-сценарий редко использует метод `chrome.runtime.connect`, и в основном вы будете встречать событийный метод `chrome.runtime.onConnect` или `chrome.runtime.onConnectExternal`. Об этом можно почитать больше на [https://developer.chrome.com/extensions/messaging\#external](https://developer.chrome.com/extensions/messaging#external).
 
-
-
-
-
 Чтобы принять сообщение, используется перехватчик `chrome.runtime.onConnectExternal`, в который передается объект `port`. И наконец, чтобы слушать входящие сообщения, назначаем`port.onMessage`. В результате оба скрипта имеют доступ к общему порту, и могу одновременно прослушивать сообщения. Как показано  в коде ниже:
 
 ```
@@ -30,6 +26,10 @@ chrome.runtime.onConnectExternal.addListener(function(port) {
     });
 });
 ```
+
+![Рисунок 3-21. Проверка работы: консоль панель](/assets/figure-3-21.png)
+
+##### Рисунок 3-21. _Проверка работы: консоль панель._
 
 
 
