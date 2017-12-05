@@ -69,5 +69,10 @@ chrome.runtime.onMessage.addListener(function(message,sender,sendResponse) {
 //end-region
 ```
 
+![Рисунок 3-23. Расширение PSandES: Инспекция popup окна](/assets/figure-3-23.png)
+
+##### Рисунок 3-23. _Расширение PSandES: Инспекция popup окна._
+
+
 
 
