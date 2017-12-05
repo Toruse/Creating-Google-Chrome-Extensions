@@ -46,3 +46,28 @@ console.log(greeting);
 
 Как показано в листинге 3-11, после подключения скрипта к веб-странице, он добавит кнопку на которую прикрепит событие отправляющее сообщение при помощи метода `chrome.runtime.sendMessage`. Так как параметр `extensionID `не обязательный в данном примере он не указывается.
 
+##### Листинг 3-12. _Chapter3/CSandES/event_script.js_
+
+```
+//region {переменные и функции}
+var greeting = "Hello World!";
+var responseObject = {
+    message : "Test message Y",
+    sender : "event_script.js"
+};
+function GetFormattedMessageString(message,sender) {
+    return "Message '" + message + "' from Sender '" + sender.url + "'";
+}
+//end-region
+
+//region {вычисления}
+console.log(greeting);
+chrome.runtime.onMessage.addListener(function(message,sender,sendResponse) {
+    sendResponse(responseObject); //SendResponse будет выполнен в том скрипте, где определён
+    console.log(GetFormattedMessageString(message,sender));
+});
+//end-region
+```
+
+
+
