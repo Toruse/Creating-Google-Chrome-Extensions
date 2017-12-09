@@ -1,4 +1,6 @@
-#### Popup Scripts and Content Scripts
+#### Popup и Content скрипты 
+
+
 
 
 
