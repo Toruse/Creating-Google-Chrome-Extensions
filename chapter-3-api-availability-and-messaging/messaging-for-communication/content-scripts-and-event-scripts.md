@@ -75,5 +75,32 @@ chrome.runtime.onMessage.addListener(function(message,sender,sendResponse) {
 
 В листинге 3-12 указан код event сценария. Поскольку обмен сообщениями выполняется в пределах расширения, то по сравнению с предыдущим примером \(листинг 3-10\), вместо слушатель `onMessageExternal `используется `onMessage`. Если нужно установить постоянное соединение, то потребуется функция слушатель для `chrome.runtime.onConnect`. Указанный вариант находиться в комментариях листинга 3-12. На рисунке 3-18 показан результат работы расширения.
 
+##### Листинг 3-13. _Chapter3/CSandES/manifest.json_
+
+```
+{
+    "manifest_version" : 2,
+    "name" : "Communication Demo: content-script and event-script",
+    "description" : "Показывает связь content-скрипта и event-сценария",
+    "version" : "1.2",
+    "background" : {
+        "scripts" : ["event_script.js"],
+        "persistent" : false
+    },
+    "content_scripts" : [
+        {
+            "matches" : ["*://localhost/*"],
+            "js" : ["content_script.js"]
+        }
+    ]
+}
+```
+
+![Рисунок 3-24. Консольная панель фоновой страницы](/assets/figure-3-24.png)
+
+##### Рисунок 3-24. _Консольная панель фоновой страницы._
+
+
+
 
 
