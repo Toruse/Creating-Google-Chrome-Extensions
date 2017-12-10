@@ -4,5 +4,28 @@
 
 Исходя из файла манифеста \(Листинг 3-14\), расширение добавляет content-скрипт на посещаемую веб-страницу example.org. Так же указан атрибут` browser_action`, для подключения всплывающего окна, которое содержит элемент “Send Message” с идентификатором `send_message` \(Рисунок 3-21\). Далее к элементу `send_message` прикрепляется событие на клик \(Листинг 3-15\).
 
+##### Листинг 3-14. _Chapter3/PSandCS/manifest.json_
+
+```
+{
+    "manifest_version" : 2,
+    "name" : "Communication Demo: popup-script and content-script",
+    "description" : "Показывает связь popup-сценария и content-сценария",
+    "version" : "1.2",
+    "content_scripts" : [
+        {
+            "matches" : ["*://www.example.org/*"],
+            "js" : ["content_script.js"]
+        }
+    ],
+    "browser_action" : {
+        "default_title" : "Communication Demo: popup-script and content-script",
+        "default_icon" : "icon.png",
+        "default_popup" : "popup.html"
+    }
+}
+```
+
+
 
 
