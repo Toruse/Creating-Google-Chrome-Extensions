@@ -67,4 +67,5 @@
     * [Content и Event сценарии](chapter-3-api-availability-and-messaging/messaging-for-communication/content-scripts-and-event-scripts.md)
       * [Popup и Content скрипты ](chapter-3-api-availability-and-messaging/messaging-for-communication/content-scripts-and-event-scripts/popup-scripts-and-content-scripts.md)
         * [Использование долгоживущих соединений](chapter-3-api-availability-and-messaging/messaging-for-communication/content-scripts-and-event-scripts/popup-scripts-and-content-scripts/using-a-long-lived-connection.md)
+      * [Content Scripts and Web Page Scripts](chapter-3-api-availability-and-messaging/messaging-for-communication/content-scripts-and-event-scripts/content-scripts-and-web-page-scripts.md)
 
