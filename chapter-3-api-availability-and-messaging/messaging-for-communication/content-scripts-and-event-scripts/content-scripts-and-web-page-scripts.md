@@ -1,4 +1,4 @@
-#### Content Scripts and Web Page Scripts
+#### Content сценарии и Сценарии веб-страницы
 
 
 
