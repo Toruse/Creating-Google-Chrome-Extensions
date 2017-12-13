@@ -38,4 +38,36 @@
 
 ##### Рисунок 3-25. _Расширение PSandES: Инспектирование Popup-окна._
 
+##### Листинг 3-15. _Chapter3/PSandCS/ popup_script.js_
+
+```
+//region {переменные и функции}
+var sendMessageButtonID = "send_message";
+var greeting = "Hello World!";
+var message = "Test message X";
+function responseCallback(responseObject) {
+    console.log("Message '" + responseObject.message + "' from Sender '" + responseObject.sender + "'");
+}
+//end-region
+
+//region {вычисления}
+console.log(greeting);
+(function(){
+    var buttonElement = document.createElement("button");
+    buttonElement.style.position = "fixed";
+    buttonElement.style.display = "block";
+    buttonElement.style.width = "70px";
+    buttonElement.style.height = "40px";
+    buttonElement.style.bottom = "10px";
+    buttonElement.style.left = "10px";
+    buttonElement.innerText = "Message Runtime";
+    buttonElement.addEventListener("click",function(ce) {
+        //Это сообщение будет перехвачено в event_script.js
+        chrome.runtime.sendMessage(message,responseCallback);
+    });
+    document.body.appendChild(buttonElement);
+})();
+//end-region
+```
+
 
