@@ -65,5 +65,39 @@ document.addEventListener("DOMContentLoaded",function(dcle){
 
 Content сценарий содержит код для перехвата отправленного сообщения при помощи метода `chrome.runtime.onMessag`. Далее \(листинг 3-16\), полученное сообщение с помощью `console.log` выводиться в консоль \(Рисунке 3-20\). Обратите внимание, что добавляемая кнопка на веб-страницу не используется.
 
+##### Листинг 3-16. _Chapter3/PSandCS/content_script.js_
+
+```
+//region {переменные и функции}
+var consoleGreeting = "Hello World!";
+var responseObject = {
+    message : "Test message Y",
+    sender : "content_script.js"
+};
+function GetFormattedMessageString(message,sender) {
+    return "Message '" + message + "' from Sender '" + sender.id + "'";
+}
+function createButton() {
+    var button = document.createElement("button");
+    button.style.width = "70px";
+    button.style.height = "40px";
+    button.style.position = "fixed";
+    button.style.top = "10px";
+    button.style.right = "10px";
+    button.innerText = "Send Message";
+    document.body.appendChild(button);
+    return button;
+}
+//end-region
+
+//region {вычисления}
+console.log(consoleGreeting);
+var button = createButton();
+chrome.runtime.onMessage.addListener(function(message,sender,sendResponse) {
+    sendResponse(responseObject); //SendResponse будет вызываться там где определена в сценарии
+    console.log(GetFormattedMessageString(message,sender));
+});
+//end-region
+```
 
 
