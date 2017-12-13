@@ -66,4 +66,5 @@
       * [Использование долгоживущих соединений](chapter-3-api-availability-and-messaging/messaging-for-communication/web-page-scripts-and-event-scripts/using-long-lived-connections.md)
     * [Content и Event сценарии](chapter-3-api-availability-and-messaging/messaging-for-communication/content-scripts-and-event-scripts.md)
       * [Popup и Content скрипты ](chapter-3-api-availability-and-messaging/messaging-for-communication/content-scripts-and-event-scripts/popup-scripts-and-content-scripts.md)
+        * [Using a Long-lived Connection](chapter-3-api-availability-and-messaging/messaging-for-communication/content-scripts-and-event-scripts/popup-scripts-and-content-scripts/using-a-long-lived-connection.md)
 
