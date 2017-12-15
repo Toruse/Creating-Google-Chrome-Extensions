@@ -9,20 +9,15 @@
 ```
 {
     "manifest_version" : 2,
-    "name" : "Communication Demo: popup-script and content-script",
-    "description" : "Показывает связь popup-сценария и content-сценария",
+    "name" : "Communication Demo: content-script and webpage-script",
+    "description" : "Показывает связь content-сценария и webpage-сценария",
     "version" : "1.2",
     "content_scripts" : [
         {
-            "matches" : ["*://www.example.org/*"],
+            "matches" : ["*://localhost/*"],
             "js" : ["content_script.js"]
         }
-    ],
-    "browser_action" : {
-        "default_title" : "Communication Demo: popup-script and content-script",
-        "default_icon" : "icon.png",
-        "default_popup" : "popup.html"
-    }
+    ]
 }
 ```
 
