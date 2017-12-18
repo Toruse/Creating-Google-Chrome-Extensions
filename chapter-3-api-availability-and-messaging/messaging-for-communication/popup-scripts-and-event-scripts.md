@@ -1,4 +1,4 @@
-### Popup Scripts and Event Scripts
+### Popup и Event сценарии
 
 
 
