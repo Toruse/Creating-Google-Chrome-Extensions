@@ -37,4 +37,40 @@
 
 ##### Рисунок 3-27. _Демонстрация API: Bookmarks API._
 
+##### Листинг 3-18. _Chapter3/CSandWS/content_script.js_
+
+```
+//region {переменные и функции}
+var consoleGreeting = "Hello World!";
+var targetOrigin = window.location.origin;
+var message = "Test message X";
+function createButton() {
+    var button = document.createElement("button");
+    button.style.width = "70px";
+    button.style.height = "40px";
+    button.style.position = "fixed";
+    button.style.top = "10px";
+    button.style.right = "10px";
+    button.innerText = "Send Message";
+    document.body.appendChild(button);
+    return button;
+}
+//end-region
+
+//region {вычисления}
+console.log(consoleGreeting);
+var button = createButton();
+button.addEventListener("click",function() {
+    console.log("Button clicked!");
+    window.postMessage(message,targetOrigin);
+});
+/*
+window.addEventListener("message",function(me) {
+    console.log("message: " + me.data);
+});
+*/
+//end-region
+```
+
+
 
