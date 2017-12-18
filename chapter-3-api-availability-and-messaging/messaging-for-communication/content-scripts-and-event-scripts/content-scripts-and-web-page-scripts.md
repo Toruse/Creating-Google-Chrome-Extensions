@@ -37,7 +37,7 @@
 
 ##### Рисунок 3-27. _Демонстрация API: Bookmarks API._
 
-##### Листинг 3-18. _Chapter3/CSandWS/content_script.js_
+##### Листинг 3-18. _Chapter3/CSandWS/content\_script.js_
 
 ```
 //region {переменные и функции}
@@ -71,6 +71,39 @@ window.addEventListener("message",function(me) {
 */
 //end-region
 ```
+
+В этом расширении, инициатор сообщения является content-сценарий. Аналогичным способом можно отправить сообщение из скрипта веб-страницы.
+
+![Рисунок 3-28. Демонстрация API: Bookmarks API](/assets/figure-3-28.png)
+
+##### Рисунок 3-28. _Демонстрация API: Bookmarks API._
+
+##### Листинг 3-19. _Chapter3/CSandWS/WebServer/webpage_script.js_
+
+```
+//region {переменные и функции}
+var sendMessageButtonID = "send_message";
+var greeting = "Hello World!";
+//var targetOrigin = window.location.origin;
+//var message = "Test message Y";
+//end-region
+
+//region {вычисления}
+console.log(greeting);
+document.addEventListener("DOMContentLoaded",function(dcle) {
+    var buttonID = document.getElementById(sendMessageButtonID);
+    buttonID.addEventListener("click",function(ce) {
+        //window.postMessage(message,targetOrigin);
+    });
+});
+window.addEventListener("message",function(me) {
+    console.log("message: " + me.data);
+});
+//end-region
+```
+
+
+
 
 
 
