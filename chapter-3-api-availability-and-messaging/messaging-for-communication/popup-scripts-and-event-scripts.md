@@ -54,3 +54,32 @@ document.addEventListener("DOMContentLoaded",function(dcle){
 
 В листинге 3-21 указан код popup-сценария расширения PSandES, а на рисунке 3-23 и 3-25 показан результат его работы.
 
+![Рисунок 3-29. Демонстрация API: Downloads API](/assets/figure-3-29.png)
+
+##### Рисунок 3-29. _Демонстрация API: Downloads API._
+
+##### Листинг 3-22. _Chapter3/PSandES/event_script.js_
+
+```
+//region {переменные и функции}
+var greeting = "Hello World!";
+var responseObject = {
+    message : "Test message Y",
+    sender : "event_script.js"
+};
+function GetFormattedMessageString(message,sender) {
+    return "Message '" + message + "' from Sender '" + sender.url + "'";
+}
+//end-region
+
+//region {вычисления}
+console.log(greeting);
+chrome.runtime.onMessage.addListener(function(message,sender,sendResponse) {
+    sendResponse(responseObject); //Функция SendResponse будет вызываться в сценарии где определена
+    console.log(GetFormattedMessageString(message,sender));
+});
+//end-region
+```
+
+
+
