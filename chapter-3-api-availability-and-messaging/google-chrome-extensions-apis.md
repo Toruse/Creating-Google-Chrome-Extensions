@@ -1,4 +1,4 @@
-## Google Chrome Extensions APIs
+## API расширения Google Chrome
 
 
 
