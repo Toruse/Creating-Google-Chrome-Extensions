@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded",function(dcle){
 //end-region
 ```
 
-Отправка сообщения в event-сценарий выполняется вызовом метода chrome.runtime.sendMessage\(message,responseCallback\). Где параметр `message`– это сообщение для отправки, а `responseCallback `– функция обратного вызова, которая выполняется получателем сообщения.
+Отправка сообщения в event-сценарий выполняется вызовом метода chrome.runtime.sendMessage\(message,responseCallback\). Где параметр `message`– это сообщение для отправки, а `responseCallback`– функция обратного вызова, которая выполняется получателем сообщения.
 
 В листинге 3-21 указан код popup-сценария расширения PSandES, а на рисунке 3-23 и 3-25 показан результат его работы.
 
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded",function(dcle){
 
 ##### Рисунок 3-29. _Демонстрация API: Downloads API._
 
-##### Листинг 3-22. _Chapter3/PSandES/event_script.js_
+##### Листинг 3-22. _Chapter3/PSandES/event\_script.js_
 
 ```
 //region {переменные и функции}
@@ -81,5 +81,5 @@ chrome.runtime.onMessage.addListener(function(message,sender,sendResponse) {
 //end-region
 ```
 
-
+Наконец, чтобы получить отправленное сообщение в event-сценарий, использует метод слушатель `chrome.runtime.onMessage`. Результат работы данного слушателя показан на рисунке 3-24. Обратите внимание выполняемая функция обратного вызова `SendResponse `и аргумент `responseObject `в event-сценарии инициализируется в popup-сценарии \(Рисунок 3-25\).
 
