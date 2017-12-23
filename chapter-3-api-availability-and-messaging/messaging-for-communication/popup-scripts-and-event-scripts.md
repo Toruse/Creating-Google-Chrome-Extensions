@@ -26,3 +26,26 @@
 
 Так как используется popup-сценарий, то для всплывающего окна в файле манифесте нужно объявить параметр Browser-Action или Page-Action, как показано в листинге 3-20. Чтобы использовать event-сценарий \(листинг 3-22\) его нужно указать в атрибуте `background`.
 
+##### Листинг 3-21. _Chapter3/PSandES/popup_script.js_
+
+```
+//region {переменные и функции}
+var sendMessageButtonID = "send_message";
+var greeting = "Hello World!";
+var message = "Test message X";
+function responseCallback(responseObject) {
+    console.log("Message '" + responseObject.message + "' from Sender '" + responseObject.sender + "'");
+}
+//end-region
+
+//region {вычисления}
+console.log(greeting);
+document.addEventListener("DOMContentLoaded",function(dcle){
+    var buttonID = document.getElementById(sendMessageButtonID);
+    buttonID.addEventListener("click",function(ce) {
+        //Это сообщение будет перехвачено в event_script.js
+        chrome.runtime.sendMessage(message,responseCallback);
+    });
+});
+//end-region
+```
