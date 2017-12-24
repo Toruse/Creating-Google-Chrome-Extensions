@@ -1,4 +1,4 @@
-#### An Example of Permissions
+#### Пример доступов
 
 
 
