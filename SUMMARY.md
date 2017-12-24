@@ -70,5 +70,5 @@
       * [Content сценарии и Сценарии веб-страницы](chapter-3-api-availability-and-messaging/messaging-for-communication/content-scripts-and-event-scripts/content-scripts-and-web-page-scripts.md)
     * [Popup и Event сценарии](chapter-3-api-availability-and-messaging/messaging-for-communication/popup-scripts-and-event-scripts.md)
   * [API расширения Google Chrome](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis.md)
-    * [Declare Permissions](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/declare-permissions.md)
+    * [Декларирование разрешений](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/declare-permissions.md)
 
