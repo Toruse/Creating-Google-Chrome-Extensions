@@ -1,4 +1,4 @@
-#### APIs Requiring Permissions
+#### API требующие доступ
 
 
 
