@@ -64,7 +64,7 @@
 * webRequest
 * webRequestBlocking
 
-> **Примечание:**
+> **Примечание:**  
 > Доступы помогают минимизировать вред от вашего расширения. При установке расширения, пользователь будет уведомлен через предупреждение про некоторые разрешения. Больше узнать об этом можно на странице [https://developer.chrome.com/extensions/permission\_warnings](https://developer.chrome.com/extensions/permission_warnings).
 
 

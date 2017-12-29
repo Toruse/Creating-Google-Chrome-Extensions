@@ -73,4 +73,5 @@
     * [Декларирование разрешений](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/declare-permissions.md)
       * [Пример доступов](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/declare-permissions/an-example-of-permissions.md)
       * [API требующие доступ](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/declare-permissions/apis-requiring-permissions.md)
+      * [Optional Permissions](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/declare-permissions/optional-permissions.md)
 
