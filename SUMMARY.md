@@ -75,4 +75,5 @@
       * [API требующие доступ](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/declare-permissions/apis-requiring-permissions.md)
       * [Дополнительные доступы](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/declare-permissions/optional-permissions.md)
     * [Alarms API](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/alarms-api.md)
+    * [Bookmarks API](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/bookmarks-api.md)
 
