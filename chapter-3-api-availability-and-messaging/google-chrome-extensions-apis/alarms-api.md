@@ -21,5 +21,30 @@ Alarms API \(`chrome.alarms`\) используется для периодич�
 > **Примечание:**
 > Предела в количестве вызовов alarm нет, но для уменьшения нагрузки, минимальный интервал между двумя вызовами составляет одну минуту.
 
+##### Листинг 3-23. _Chapter3/AlarmsAPI/event_script.js_
+
+```
+//region {переменные и функции}
+var greeting = "Hello World!";
+var count = 0;
+var alarmName = "testAlarm";
+var alarmInfo = {
+    when : Date.now() + 6000,
+    periodInMinutes : 1 //Вызываем каждую минуту
+};
+//end-region
+
+//region {вычисления}
+console.log(greeting);
+chrome.alarms.clearAll();
+chrome.alarms.onAlarm.addListener(function(alarm) {
+    console.log("onAlarm-" + ++count);
+});
+chrome.alarms.create(alarmName,alarmInfo);
+//end-region
+```
+
+
+
 
 
