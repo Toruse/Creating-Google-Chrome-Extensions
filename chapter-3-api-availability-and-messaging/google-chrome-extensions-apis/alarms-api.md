@@ -44,7 +44,7 @@ chrome.alarms.create(alarmName,alarmInfo);
 //end-region
 ```
 
-В листинге 3-23 для сброса всех Alarm используется метод `chrome.alarms.clearAll`. Чтобы удалить определеннуй Alarm, используется `chrome.alarms.clear(string name, function callback)`. Следует отметить, что функция обратного вызова `callback `получает объект `Alarm`, в то время когда метод `getAll `получает аргумент типа массив.
+В листинге 3-23 для сброса всех Alarm используется метод `chrome.alarms.clearAll`. Чтобы удалить определенный Alarm, используется `chrome.alarms.clear(string name, function callback)`. Следует отметить, что функция обратного вызова `callback`получает объект `Alarm`, в то время когда метод `getAll`получает аргумент типа массив.
 
 * `chrome.alarms.get(string name, function callback)`
 * `chrome.alarms.getAll(function callback)`
