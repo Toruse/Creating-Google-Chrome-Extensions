@@ -76,5 +76,5 @@
       * [Дополнительные доступы](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/declare-permissions/optional-permissions.md)
     * [Alarms API](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/alarms-api.md)
     * [Bookmarks API](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/bookmarks-api.md)
-      * [Creating a Bookmark](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/bookmarks-api/creating-a-bookmark.md)
+      * [Создание закладок](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/bookmarks-api/creating-a-bookmark.md)
 
