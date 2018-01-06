@@ -54,7 +54,8 @@ chrome.bookmarks.get("1234",function(results) {
 chrome.bookmarks.update("6",{"title":"Example URL"}); 
 */
 
-chrome.bookmarks.search(queryString,function(results) { //string or object query
+//запрос строка или объект
+chrome.bookmarks.search(queryString,function(results) {
     console.log(results); //массив BookmarkTreeNode
 });
 //end-region
