@@ -77,5 +77,5 @@
     * [Alarms API](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/alarms-api.md)
     * [Bookmarks API](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/bookmarks-api.md)
       * [Создание закладок](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/bookmarks-api/creating-a-bookmark.md)
-      * [Updating a Bookmark](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/bookmarks-api/updating-a-bookmark.md)
+      * [Обновление закладок](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/bookmarks-api/updating-a-bookmark.md)
 
