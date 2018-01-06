@@ -34,7 +34,8 @@ var queryString = "example url";
 console.log(greeting);
 
 /*
-chrome.bookmarks.create(bookmark1,function(result) { //result имеет тип BookmarkTreeNode
+//result имеет тип BookmarkTreeNode
+chrome.bookmarks.create(bookmark1,function(result) { 
     console.log("Created bookmark with id: " + result.id);
     bookmark2.parentId = result.id;
     chrome.bookmarks.create(bookmark2);
@@ -42,15 +43,19 @@ chrome.bookmarks.create(bookmark1,function(result) { //result имеет тип 
 */
 
 /*
-chrome.bookmarks.get("1234",function(results) { //id закладки (тип строка) или массив id закладок (тип строка)
+//id закладки (тип строка) или массив id закладок (тип строка)
+chrome.bookmarks.get("1234",function(results) { 
     console.log(results); //массив BookmarkTreeNode
 });
 */
 
-chrome.bookmarks.update("6",{"title":"Example URL"}); //поддерживает только название и url
+/*
+//поддерживает только название и url
+chrome.bookmarks.update("6",{"title":"Example URL"}); 
+*/
 
 chrome.bookmarks.search(queryString,function(results) { //string or object query
-    console.log(results); //array of BookmarkTreeNode
+    console.log(results); //массив BookmarkTreeNode
 });
 //end-region
 ```
