@@ -8,5 +8,51 @@
 
 Листинг 3-24 содержит фрагмент кода, в котором на основе объекта Bookmark1 создается папка, а затем callback функция на основе `result.id` создает в ней закладку \(Рисунок 3-27\). Чтобы получить созданную закладку можно использовать метод `chrome.bookmarks.get`, которая принимает идентификатор закладки или массив идентификаторов \(Листинге 3-24\), а результат обрабатывает callback-функцией принимающая массив найденных объектов BookmarkTreeNode.
 
+##### Листинг 3-24. _Chapter3/BookmarksAPI/event_script.js_
+
+```
+//region {переменные и функции}
+var greeting = "Hello World!";
+var bookmark1 = {
+    title : "MyBookmark1",
+    //Если URL является пустым или отсутствует, создана закладка будет папкой
+    url : ""
+};
+var bookmark2 = {
+    title : "MyBookmark2",
+    url : "http://www.example.org"
+};
+var queryObject = {
+    query : "",
+    url : "",
+    title : "chrome extensions"
+};
+var queryString = "example url";
+//end-region
+
+//region {вычисления}
+console.log(greeting);
+
+/*
+chrome.bookmarks.create(bookmark1,function(result) { //result имеет тип BookmarkTreeNode
+    console.log("Created bookmark with id: " + result.id);
+    bookmark2.parentId = result.id;
+    chrome.bookmarks.create(bookmark2);
+});
+*/
+
+/*
+chrome.bookmarks.get("1234",function(results) { //id закладки (тип строка) или массив id закладок (тип строка)
+    console.log(results); //массив BookmarkTreeNode
+});
+*/
+
+chrome.bookmarks.update("6",{"title":"Example URL"}); //поддерживает только название и url
+
+chrome.bookmarks.search(queryString,function(results) { //string or object query
+    console.log(results); //array of BookmarkTreeNode
+});
+//end-region
+```
 
 
