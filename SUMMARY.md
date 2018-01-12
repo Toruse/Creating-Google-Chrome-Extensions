@@ -80,5 +80,5 @@
       * [Обновление закладок](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/bookmarks-api/updating-a-bookmark.md)
       * [Поиск закладок](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/bookmarks-api/searching-for-bookmarks.md)
       * [Использование иерархию закладок](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/bookmarks-api/using-the-bookmarks-hierarchy.md)
-      * [Associated Events](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/bookmarks-api/associated-events.md)
+      * [События](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/bookmarks-api/associated-events.md)
 
