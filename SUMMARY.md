@@ -79,4 +79,5 @@
       * [Создание закладок](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/bookmarks-api/creating-a-bookmark.md)
       * [Обновление закладок](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/bookmarks-api/updating-a-bookmark.md)
       * [Поиск закладок](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/bookmarks-api/searching-for-bookmarks.md)
+      * [Using the Bookmarks Hierarchy](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/bookmarks-api/using-the-bookmarks-hierarchy.md)
 
