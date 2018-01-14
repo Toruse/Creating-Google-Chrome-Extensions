@@ -2,7 +2,7 @@
 
 API загрузки \(`chrome.downloads`\) используется для инициализации, поиска и контроля загрузки данных. Для этого нужно указать доступ `downloads` в файле манифеста. Пример использования показан в листинге 3-25.
 
-##### Листинг 3-25. _Chapter3/DownloadsAPI/event_script.js_
+##### Листинг 3-25. _Chapter3/DownloadsAPI/event\_script.js_
 
 ```
 //region {переменные и функции}
@@ -36,3 +36,6 @@ chrome.downloads.onChanged.addListener(function(downloadDelta) {
     console.log(downloadDelta);
 });
 ```
+
+
+
