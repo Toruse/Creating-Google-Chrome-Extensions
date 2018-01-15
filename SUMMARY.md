@@ -84,4 +84,5 @@
     * [Downloads API](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/downloads-api.md)
       * [Загружаем файл](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/downloads-api/downloading-a-file.md)
       * [Отмена или возобновление скачивания](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/downloads-api/cancelling-or-resuming-a-download.md)
+      * [Opening a Download](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/downloads-api/opening-a-download.md)
 
