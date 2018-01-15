@@ -16,3 +16,9 @@
 
 Теперь, рассмотрим пример использования метода `download`, для загрузки файла [https://github.com/Apress/creating-google-chrome-extensions/archive/master.zip](https://github.com/Apress/creating-google-chrome-extensions/archive/master.zip) \(Листинг 3-25\).
 
+![Рисунок 3-36. Tabs API: Использование метода captureVisibleTab](/assets/figure-3-36.png)
+
+##### Рисунок 3-36. _Tabs API: Использование метода captureVisibleTab._
+
+
+
