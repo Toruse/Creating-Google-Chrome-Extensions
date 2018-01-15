@@ -1,4 +1,4 @@
-#### Cancelling or Resuming a Download
+#### Отмена или возобновление скачивания
 
 
 
