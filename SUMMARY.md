@@ -83,4 +83,5 @@
       * [События](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/bookmarks-api/associated-events.md)
     * [Downloads API](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/downloads-api.md)
       * [Загружаем файл](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/downloads-api/downloading-a-file.md)
+      * [Cancelling or Resuming a Download](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/downloads-api/cancelling-or-resuming-a-download.md)
 
