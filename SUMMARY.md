@@ -86,4 +86,5 @@
       * [Отмена или возобновление скачивания](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/downloads-api/cancelling-or-resuming-a-download.md)
       * [Открыть закачанное](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/downloads-api/opening-a-download.md)
       * [Удаление закачанного](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/downloads-api/deleting-a-download.md)
+      * [Associated Events](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/downloads-api/associated-events.md)
 
