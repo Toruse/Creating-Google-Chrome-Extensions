@@ -87,4 +87,5 @@
       * [Открыть закачанное](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/downloads-api/opening-a-download.md)
       * [Удаление закачанного](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/downloads-api/deleting-a-download.md)
       * [События](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/downloads-api/associated-events.md)
+    * [History API](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/history-api.md)
 
