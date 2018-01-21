@@ -88,4 +88,5 @@
       * [Удаление закачанного](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/downloads-api/deleting-a-download.md)
       * [События](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/downloads-api/associated-events.md)
     * [History API](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/history-api.md)
+      * [Adding and Removing URLs](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/history-api/adding-and-removing-urls.md)
 
