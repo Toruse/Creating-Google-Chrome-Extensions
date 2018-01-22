@@ -89,5 +89,5 @@
       * [События](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/downloads-api/associated-events.md)
     * [History API](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/history-api.md)
       * [Добавление и удаление URL-адресов](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/history-api/adding-and-removing-urls.md)
-      * [Associated Events](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/history-api/associated-events.md)
+      * [События](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/history-api/associated-events.md)
 
