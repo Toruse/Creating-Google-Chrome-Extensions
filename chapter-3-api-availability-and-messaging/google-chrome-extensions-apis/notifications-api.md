@@ -2,7 +2,7 @@
 
 При помощи `chrome.notifications` API можно создать гибкие уведомления для пользователей в системном лотке \(tray\) операционной системы. Пример использования показан в листинге 3-27.
 
-##### Листинг 3-27. _Chapter3/NotificationsAPI/event_script.js_
+##### Листинг 3-27. _Chapter3/NotificationsAPI/event\_script.js_
 
 ```
 //region {переменные и функции}
@@ -79,8 +79,6 @@ chrome.notifications.onButtonClicked.addListener(function(notificationId,buttonI
     console.log("onButtonClicked: " + buttonIndex);
 });
 ```
-
-
 
 
 

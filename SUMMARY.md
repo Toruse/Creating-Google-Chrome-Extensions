@@ -91,4 +91,5 @@
       * [Добавление и удаление URL-адресов](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/history-api/adding-and-removing-urls.md)
       * [События](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/history-api/associated-events.md)
     * [Notifications API](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/notifications-api.md)
+      * [Creating and Clearing a Notification](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/notifications-api/creating-and-clearing-a-notification.md)
 
