@@ -92,5 +92,5 @@
       * [События](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/history-api/associated-events.md)
     * [Notifications API](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/notifications-api.md)
       * [Создание и очистка уведомлений](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/notifications-api/creating-and-clearing-a-notification.md)
-      * [Updating a Notification](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/notifications-api/updating-a-notification.md)
+      * [Обновление уведомления](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/notifications-api/updating-a-notification.md)
 
