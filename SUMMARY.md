@@ -95,4 +95,5 @@
       * [Обновление уведомления](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/notifications-api/updating-a-notification.md)
       * [События](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/notifications-api/associated-events.md)
     * [Storage API](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/storage-api.md)
+      * [Sync versus Local Storage](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/storage-api/sync-versus-local-storage.md)
 
