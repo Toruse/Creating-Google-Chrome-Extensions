@@ -96,5 +96,5 @@
       * [События](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/notifications-api/associated-events.md)
     * [Storage API](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/storage-api.md)
       * [Сравнение Sync и Local хранение](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/storage-api/sync-versus-local-storage.md)
-      * [Setting and Getting Items](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/storage-api/setting-and-getting-items.md)
+      * [Установка и получение элементов](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/storage-api/setting-and-getting-items.md)
 
