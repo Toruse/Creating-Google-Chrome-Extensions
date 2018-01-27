@@ -1,4 +1,4 @@
-#### Sync versus Local Storage
+#### Сравнение Sync и Local хранение
 
 
 
