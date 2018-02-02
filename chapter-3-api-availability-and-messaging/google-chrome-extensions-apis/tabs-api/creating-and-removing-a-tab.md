@@ -1,4 +1,4 @@
-#### Creating and Removing a Tab
+#### Создание и удаление вкладки
 
 
 
