@@ -100,4 +100,5 @@
       * [Удаление элементов](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/storage-api/removing-items.md)
       * [События](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/storage-api/associated-events.md)
     * [Tabs API](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/tabs-api.md)
+      * [Creating and Removing a Tab](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/tabs-api/creating-and-removing-a-tab.md)
 
