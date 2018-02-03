@@ -105,4 +105,5 @@
       * [Захват вкладки](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/tabs-api/capturing-a-tab.md)
       * [События](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/tabs-api/associated-events.md)
     * [XHR API](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/xhr-api.md)
+  * [Summary](chapter-3-api-availability-and-messaging/summary.md)
 
