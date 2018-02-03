@@ -50,6 +50,18 @@ xhr.send();
 
 На рисунке 3-37 показан ответ на запрос от сервера.
 
+##### Листинг 3-33. _Chapter3/XHRAPI/WebServer/webpage.php_
+
+```
+<?php
+$raw_input = trim($_GET["name"]);
+if(!preg_match("/^[a-zA-Z ]*$/",$raw_input)) {
+    echo "";
+} else {
+    echo strtoupper($raw_input);
+}
+?>
+```
 
 
 
