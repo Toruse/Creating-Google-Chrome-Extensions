@@ -106,4 +106,5 @@
       * [События](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/tabs-api/associated-events.md)
     * [XHR API](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/xhr-api.md)
   * [Резюме](chapter-3-api-availability-and-messaging/summary.md)
+* [Chapter 4: More About Extensions](chapter-4-more-about-extensions.md)
 
