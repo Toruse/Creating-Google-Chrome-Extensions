@@ -101,5 +101,5 @@
       * [События](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/storage-api/associated-events.md)
     * [Tabs API](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/tabs-api.md)
       * [Создание и удаление вкладки](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/tabs-api/creating-and-removing-a-tab.md)
-      * [Updating a Tab](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/tabs-api/updating-a-tab.md)
+      * [Обновление вкладки](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/tabs-api/updating-a-tab.md)
 
