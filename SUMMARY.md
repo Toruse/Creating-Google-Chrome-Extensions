@@ -109,5 +109,5 @@
 * [Глава 4: Еще о расширениях](chapter-4-more-about-extensions.md)
   * [Страница настроек](chapter-4-more-about-extensions/providing-an-options-page.md)
     * [Роль манифеста](chapter-4-more-about-extensions/providing-an-options-page/role-of-manifest-for-this-component.md)
-    * [Writing an Options Page](chapter-4-more-about-extensions/providing-an-options-page/writing-an-options-page.md)
+    * [Сохранение настроек](chapter-4-more-about-extensions/providing-an-options-page/writing-an-options-page.md)
 
