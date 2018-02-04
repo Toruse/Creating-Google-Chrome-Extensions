@@ -1,4 +1,4 @@
-## Providing an Options Page
+## Страница настроек
 
 
 
