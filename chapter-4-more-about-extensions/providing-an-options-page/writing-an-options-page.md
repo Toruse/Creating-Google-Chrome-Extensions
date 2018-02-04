@@ -9,6 +9,45 @@
 
 ##### Рисунок 4-1. _Новая вкладка: сообщение переопределения._
 
+##### Листинг 4-2. _Chapter4/OverridePages/myOptionsPage.html_
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Моя страница с настройками</title>
+        <script src="myOptionsPage_1.js"></script>
+        <style>
+            div.left {
+                float:left;
+            }
+            div.right {
+                float:right;
+            }
+            p.clear {
+                clear:both;
+            }
+        </style>
+    </head>
+    <body>
+        <p>
+            <div class="left">
+                Закладки, соответствующие правилу?
+            </div>
+            <div class="right">
+                <form>
+                    <input type="radio" name="highlight" value="1"> Да
+                    <input type="radio" name="highlight" value="0" checked="checked"> Нет
+                </form>
+            </div>
+        </p>
+        <br>
+        <p class="clear">
+            <input type="button" id="save" value="Сохранить">
+        </p>
+    </body>
+</html>
+```
 
 
 
