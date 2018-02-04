@@ -51,3 +51,41 @@
 
 К странице настроек можно подключать сценарии, указав в атрибуте `src` путь относительно папки расширения. В листинге 4-2 показано как подключается сценарий myOptionsPage\_1.js, а в листинге 4-3 содержится код самого сценария. Указанный скрипт выполняет сохранение пользовательских настроек для расширения OverridePages.
 
+##### Листинг 4-3. _Chapter4/OverridePages/myOptionsPage_1.js_
+
+```
+//region {переменные и функции}
+var storageKey = "APPEND_MATCHING_ONLY";
+var items = {};
+var saveButtonID = "save";
+function logSuccess(task) {
+    console.log("%s Successful!",task);
+}
+//end-region
+
+//region {вычисления}
+document.addEventListener("DOMContentLoaded",function(dcle) {
+    var saveButton = document.getElementById(saveButtonID);
+    saveButton.addEventListener("click",function(ce) {
+        if(document.forms[0].highlight.value == "1") {
+            items[storageKey] = true;
+            chrome.storage.sync.set(
+                items,
+                function(){if(!chrome.runtime.lastError)logSuccess("Set-Storage");}
+            );
+        } else {
+            items[storageKey] = false;
+            chrome.storage.sync.set(
+                items,
+                function(){if(!chrome.runtime.lastError)logSuccess("Set-Storage");}
+            );
+        }
+    });
+});
+//end-region
+```
+
+
+
+
+

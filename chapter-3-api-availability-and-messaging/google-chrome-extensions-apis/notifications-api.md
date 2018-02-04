@@ -78,6 +78,7 @@ chrome.notifications.onClosed.addListener(function(notificationId,byUser) {
 chrome.notifications.onButtonClicked.addListener(function(notificationId,buttonIndex) {
     console.log("onButtonClicked: " + buttonIndex);
 });
+//end-region
 ```
 
 
