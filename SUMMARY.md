@@ -111,4 +111,5 @@
     * [Роль манифеста](chapter-4-more-about-extensions/providing-an-options-page/role-of-manifest-for-this-component.md)
     * [Сохранение настроек](chapter-4-more-about-extensions/providing-an-options-page/writing-an-options-page.md)
   * [Работа с переопределённой страницей](chapter-4-more-about-extensions/working-with-override-pages.md)
+    * [Role of Manifest for this Component](chapter-4-more-about-extensions/working-with-override-pages/role-of-manifest-for-this-component.md)
 
