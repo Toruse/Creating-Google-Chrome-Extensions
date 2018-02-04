@@ -107,4 +107,5 @@
     * [XHR API](chapter-3-api-availability-and-messaging/google-chrome-extensions-apis/xhr-api.md)
   * [Резюме](chapter-3-api-availability-and-messaging/summary.md)
 * [Глава 4: Еще о расширениях](chapter-4-more-about-extensions.md)
+  * [Providing an Options Page](chapter-4-more-about-extensions/providing-an-options-page.md)
 
