@@ -112,5 +112,5 @@
     * [Сохранение настроек](chapter-4-more-about-extensions/providing-an-options-page/writing-an-options-page.md)
   * [Работа с переопределённой страницей](chapter-4-more-about-extensions/working-with-override-pages.md)
     * [Роль манифеста](chapter-4-more-about-extensions/working-with-override-pages/role-of-manifest-for-this-component.md)
-    * [OverridePages Extension](chapter-4-more-about-extensions/working-with-override-pages/overridepages-extension.md)
+    * [Расширение OverridePages](chapter-4-more-about-extensions/working-with-override-pages/overridepages-extension.md)
 
