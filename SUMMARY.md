@@ -113,5 +113,5 @@
   * [Работа с переопределённой страницей](chapter-4-more-about-extensions/working-with-override-pages.md)
     * [Роль манифеста](chapter-4-more-about-extensions/working-with-override-pages/role-of-manifest-for-this-component.md)
     * [Расширение OverridePages](chapter-4-more-about-extensions/working-with-override-pages/overridepages-extension.md)
-  * [Creating Themes for Google Chrome](chapter-4-more-about-extensions/creating-themes-for-google-chrome.md)
+  * [Создание темы для Google Chrome](chapter-4-more-about-extensions/creating-themes-for-google-chrome.md)
 

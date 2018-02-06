@@ -1,4 +1,4 @@
-## Creating Themes for Google Chrome
+## Создание темы для Google Chrome
 
 
 
