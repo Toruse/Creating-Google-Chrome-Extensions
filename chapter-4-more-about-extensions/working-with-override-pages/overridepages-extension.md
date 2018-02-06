@@ -100,5 +100,11 @@ document.addEventListener("DOMContentLoaded",function(dcle) {
 //end-region
 ```
 
+![Рисунок 4-6. Новая вкладка с закладками](/assets/figure-4-6.png)
+
+##### Рисунок 4-6. _Новая вкладка с закладками._
+
+
+
 
 
