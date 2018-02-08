@@ -114,5 +114,5 @@
     * [Роль манифеста](chapter-4-more-about-extensions/working-with-override-pages/role-of-manifest-for-this-component.md)
     * [Расширение OverridePages](chapter-4-more-about-extensions/working-with-override-pages/overridepages-extension.md)
   * [Создание темы для Google Chrome](chapter-4-more-about-extensions/creating-themes-for-google-chrome.md)
-  * [Extensions Development: Security Concerns](chapter-4-more-about-extensions/extensions-development-security-concerns.md)
+  * [Вопросы безопасности при разработке расширений](chapter-4-more-about-extensions/extensions-development-security-concerns.md)
 

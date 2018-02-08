@@ -1,4 +1,4 @@
-## Extensions Development: Security Concerns
+## Вопросы безопасности при разработке расширений
 
 
 
