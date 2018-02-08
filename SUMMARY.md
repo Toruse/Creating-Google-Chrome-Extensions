@@ -115,5 +115,5 @@
     * [Расширение OverridePages](chapter-4-more-about-extensions/working-with-override-pages/overridepages-extension.md)
   * [Создание темы для Google Chrome](chapter-4-more-about-extensions/creating-themes-for-google-chrome.md)
   * [Вопросы безопасности при разработке расширений](chapter-4-more-about-extensions/extensions-development-security-concerns.md)
-    * [API Permissions](chapter-4-more-about-extensions/extensions-development-security-concerns/api-permissions.md)
+    * [Права доступа](chapter-4-more-about-extensions/extensions-development-security-concerns/api-permissions.md)
 
