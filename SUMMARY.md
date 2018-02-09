@@ -116,5 +116,5 @@
   * [Создание темы для Google Chrome](chapter-4-more-about-extensions/creating-themes-for-google-chrome.md)
   * [Вопросы безопасности при разработке расширений](chapter-4-more-about-extensions/extensions-development-security-concerns.md)
     * [Права доступа](chapter-4-more-about-extensions/extensions-development-security-concerns/api-permissions.md)
-    * [Match Pattern Permissions](chapter-4-more-about-extensions/extensions-development-security-concerns/match-pattern-permissions.md)
+    * [Доступы по шаблону соответствия](chapter-4-more-about-extensions/extensions-development-security-concerns/match-pattern-permissions.md)
 
