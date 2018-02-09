@@ -120,5 +120,5 @@
     * [Внешние соединения](chapter-4-more-about-extensions/extensions-development-security-concerns/externally-connectable.md)
     * [Хранилище](chapter-4-more-about-extensions/extensions-development-security-concerns/storage.md)
     * [Content сценарии](chapter-4-more-about-extensions/extensions-development-security-concerns/content-script.md)
-  * [Summary](chapter-4-more-about-extensions/rezyume.md)
+  * [Резюме](chapter-4-more-about-extensions/rezyume.md)
 
