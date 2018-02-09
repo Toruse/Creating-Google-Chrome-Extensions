@@ -119,4 +119,5 @@
     * [Доступы по шаблону соответствия](chapter-4-more-about-extensions/extensions-development-security-concerns/match-pattern-permissions.md)
     * [Внешние соединения](chapter-4-more-about-extensions/extensions-development-security-concerns/externally-connectable.md)
     * [Хранилище](chapter-4-more-about-extensions/extensions-development-security-concerns/storage.md)
+    * [Content Script](chapter-4-more-about-extensions/extensions-development-security-concerns/content-script.md)
 
