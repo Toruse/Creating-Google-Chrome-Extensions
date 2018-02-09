@@ -117,5 +117,5 @@
   * [Вопросы безопасности при разработке расширений](chapter-4-more-about-extensions/extensions-development-security-concerns.md)
     * [Права доступа](chapter-4-more-about-extensions/extensions-development-security-concerns/api-permissions.md)
     * [Доступы по шаблону соответствия](chapter-4-more-about-extensions/extensions-development-security-concerns/match-pattern-permissions.md)
-    * [Externally Connectable](chapter-4-more-about-extensions/extensions-development-security-concerns/externally-connectable.md)
+    * [Внешние соединения](chapter-4-more-about-extensions/extensions-development-security-concerns/externally-connectable.md)
 

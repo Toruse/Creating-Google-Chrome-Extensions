@@ -1,4 +1,4 @@
-### Externally Connectable
+### Внешние соединения
 
 
 
